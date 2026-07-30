@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// A joint card for the Finder list and Passport / Festival lists.
+/// A joint card for the Finder list and the Passport / Events lists.
 struct JointRow: View {
     @Environment(PassportStore.self) private var passport
     let joint: Joint

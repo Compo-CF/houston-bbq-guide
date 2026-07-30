@@ -6,6 +6,7 @@ import Observation
 final class JointStore {
     var joints: [Joint] = []
     var taxonomies: [String: [String]] = [:]
+    var events: [Event] = []
     var filter = JointFilter()
     var userLocation: CLLocation?
 
@@ -65,6 +66,7 @@ final class JointStore {
     private func apply(_ file: JointsFile) {
         joints = file.joints
         taxonomies = file.taxonomies
+        events = file.events ?? []
     }
 
     private static func decode(_ data: Data) -> JointsFile? {

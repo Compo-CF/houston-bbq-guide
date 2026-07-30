@@ -12,8 +12,8 @@ struct ContentView: View {
                 .tabItem { Label("Guide", systemImage: "book.closed.fill") }
             PassportTabView()
                 .tabItem { Label("Passport", systemImage: "checklist") }
-            FestivalTabView()
-                .tabItem { Label("Festival", systemImage: "ticket.fill") }
+            EventsTabView()
+                .tabItem { Label("Events", systemImage: "calendar") }
         }
         .tint(Theme.amber)
         .task {

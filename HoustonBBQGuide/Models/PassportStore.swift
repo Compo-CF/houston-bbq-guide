@@ -40,7 +40,7 @@ final class PassportStore {
             Badge("Pitmaster", "Visit 15 joints", "flame.fill", count >= 15),
             Badge("Completionist", "Visit all \(all.count)", "trophy.fill", !all.isEmpty && count >= all.count),
             Badge("Central TX Tour", "All Central Texas", "map.fill", allVisited(centralTX)),
-            Badge("Michelin Run", "All starred joints", "star.fill", allVisited(michelin)),
+            Badge("Michelin Run", "All Recognized Joints", "star.fill", allVisited(michelin)),
         ]
     }
 }

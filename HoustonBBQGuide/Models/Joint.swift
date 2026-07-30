@@ -78,4 +78,5 @@ struct JointsFile: Codable {
     let count: Int?
     let taxonomies: [String: [String]]
     let joints: [Joint]
+    let events: [Event]?
 }

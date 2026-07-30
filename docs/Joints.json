@@ -2074,5 +2074,90 @@
         "Outdoor Patio"
       ]
     }
+  ],
+  "events": [
+    {
+      "name": "Houston BBQ Throwdown 2026",
+      "tagline": "Presented by the Houston BBQ Guide",
+      "kind": "Competition",
+      "date": "Sunday, September 20, 2026",
+      "time": "1–4 PM",
+      "venue": "Saint Arnold Brewing Company",
+      "address": "2000 Lyons Ave, Houston, TX 77020",
+      "ticketURL": "https://houbbqthrowdown2026.eventbrite.com/?aff=guide",
+      "about": "The Houston BBQ Throwdown pits the city's best against each other for an afternoon of live-fire cooking and blind judging at Saint Arnold Brewing Company. Taste from every pit, then see who takes home Judge's Choice and People's Choice.",
+      "participants": [
+        {
+          "name": "Charm Taphouse & BBQ",
+          "note": null
+        },
+        {
+          "name": "Chavo's BBQ",
+          "note": null
+        },
+        {
+          "name": "Chicano BBQ",
+          "note": null
+        },
+        {
+          "name": "Daddy Duncan's BBQ",
+          "note": null
+        },
+        {
+          "name": "Deckle & Hide",
+          "note": null
+        },
+        {
+          "name": "Eastbound Barbecue",
+          "note": null
+        },
+        {
+          "name": "Fire Craft BBQ",
+          "note": null
+        },
+        {
+          "name": "Koop's BBQ Kitchen",
+          "note": null
+        },
+        {
+          "name": "La Cruda Brand BBQ",
+          "note": "Defending Judge's Choice"
+        },
+        {
+          "name": "Space City BBQ",
+          "note": "Defending People's Choice"
+        },
+        {
+          "name": "The Pit Room",
+          "note": null
+        },
+        {
+          "name": "The Station at Smokey Oaks",
+          "note": null
+        },
+        {
+          "name": "Weaver's BBQ",
+          "note": null
+        }
+      ],
+      "judges": [
+        {
+          "name": "Will Buckman",
+          "affiliation": "CorkScrew BBQ"
+        },
+        {
+          "name": "Wayne Mueller",
+          "affiliation": "Louie Mueller Barbecue"
+        },
+        {
+          "name": "Bao Ong",
+          "affiliation": "Houston Chronicle"
+        },
+        {
+          "name": "Jess Timmons",
+          "affiliation": "Chef & restaurant consultant"
+        }
+      ]
+    }
   ]
 }

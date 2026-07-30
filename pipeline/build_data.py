@@ -141,11 +141,55 @@ for i, rec in enumerate(joints_raw, 1):
         "features": names(rec, "features"),
     })
 
+# Events calendar — the annual festival (April), the BBQ Throwdown (September),
+# etc. Sourced by hand from each event's Eventbrite listing (the WP API has no
+# event data). Ships in the same remote Joints.json the app fetches; edit + push
+# to change the calendar without an app release. Add/remove dicts as events come
+# and go — each needs only `name`; everything else is optional.
+EVENTS = [
+    {
+        "name": "Houston BBQ Throwdown 2026",
+        "tagline": "Presented by the Houston BBQ Guide",
+        "kind": "Competition",
+        "date": "Sunday, September 20, 2026",
+        "time": "1–4 PM",
+        "venue": "Saint Arnold Brewing Company",
+        "address": "2000 Lyons Ave, Houston, TX 77020",
+        "ticketURL": "https://houbbqthrowdown2026.eventbrite.com/?aff=guide",
+        "about": "The Houston BBQ Throwdown pits the city's best against each "
+                 "other for an afternoon of live-fire cooking and blind judging "
+                 "at Saint Arnold Brewing Company. Taste from every pit, then see "
+                 "who takes home Judge's Choice and People's Choice.",
+        "participants": [
+            {"name": "Charm Taphouse & BBQ", "note": None},
+            {"name": "Chavo's BBQ", "note": None},
+            {"name": "Chicano BBQ", "note": None},
+            {"name": "Daddy Duncan's BBQ", "note": None},
+            {"name": "Deckle & Hide", "note": None},
+            {"name": "Eastbound Barbecue", "note": None},
+            {"name": "Fire Craft BBQ", "note": None},
+            {"name": "Koop's BBQ Kitchen", "note": None},
+            {"name": "La Cruda Brand BBQ", "note": "Defending Judge's Choice"},
+            {"name": "Space City BBQ", "note": "Defending People's Choice"},
+            {"name": "The Pit Room", "note": None},
+            {"name": "The Station at Smokey Oaks", "note": None},
+            {"name": "Weaver's BBQ", "note": None},
+        ],
+        "judges": [
+            {"name": "Will Buckman", "affiliation": "CorkScrew BBQ"},
+            {"name": "Wayne Mueller", "affiliation": "Louie Mueller Barbecue"},
+            {"name": "Bao Ong", "affiliation": "Houston Chronicle"},
+            {"name": "Jess Timmons", "affiliation": "Chef & restaurant consultant"},
+        ],
+    },
+]
+
 out = {
     "source": "houbbqguide.com",
     "count": len(joints),
     "taxonomies": tax_terms,
     "joints": joints,
+    "events": EVENTS,
 }
 with open("joints.json", "w", encoding="utf-8") as f:
     json.dump(out, f, indent=2, ensure_ascii=False)
