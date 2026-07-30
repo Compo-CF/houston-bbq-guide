@@ -59,13 +59,16 @@ launch and falls back to the bundled copy. To turn it on:
 
 1. Make the repo public (or use a Pro account), enable **Settings → Pages**,
    source = `main` branch `/docs` folder.
-2. `docs/Joints.json` is already in the repo. Re-run the pipeline whenever
-   Reid updates the site:
+2. `docs/Joints.json` is already in the repo. The full data pipeline lives in
+   this repo (`pipeline/build_data.py`), so refreshing from Reid's site is
+   self-contained — run it anywhere with Python:
    ```bash
-   cd /c/Users/anthony.compofelice/houbbq && python pipeline/build_data.py
-   cp data/joints.json /c/Users/anthony.compofelice/HoustonBBQGuide/docs/Joints.json
+   python pipeline/build_data.py                 # writes joints.json in cwd
+   cp joints.json docs/Joints.json
+   cp joints.json HoustonBBQGuide/Resources/Joints.json   # also refresh the bundled seed
+   git commit -am "Refresh joint data" && git push
    ```
-   Commit + push; every app picks it up on next launch.
+   Every app picks up `docs/Joints.json` on next launch.
 
 If you skip this, the app still ships fine on the bundled data — remote fetch
 just silently no-ops.
