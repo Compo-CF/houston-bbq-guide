@@ -32,7 +32,9 @@ targets:
       properties:
         CFBundleDisplayName: HOU BBQ
         CFBundleShortVersionString: "1.0"
-        CFBundleVersion: "2"
+        # Fallback only. Generate via ./gen.sh, which stamps CFBundleVersion with
+        # the git commit count (git rev-list --count HEAD) into the built Info.plist.
+        CFBundleVersion: "1"
         CFBundleIconName: AppIcon
         UILaunchScreen:
           UIColorName: ""

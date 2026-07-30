@@ -35,8 +35,9 @@ free account — see step 5.)
 ```bash
 cd ~/houston-bbq-guide 2>/dev/null || git clone https://github.com/Compo-CF/houston-bbq-guide.git ~/houston-bbq-guide
 cd ~/houston-bbq-guide && git pull
-# xcodegen as a standalone binary in ~/bin (Homebrew perms workaround)
-~/bin/xcodegen generate || xcodegen generate
+# Always generate via gen.sh (not raw xcodegen) — it stamps the git-derived
+# build number. Re-run it after every pull and whenever files are added/removed.
+./gen.sh
 open HoustonBBQGuide.xcodeproj
 ```
 
@@ -49,8 +50,11 @@ open HoustonBBQGuide.xcodeproj
 5. In ASC → the app → **TestFlight**: once the build finishes processing,
    add it to Internal Testing and invite testers.
 
-To bump for later builds, edit `project.yml` (`CFBundleVersion`) and re-run
-`xcodegen generate`.
+The build number is automatic: `gen.sh` stamps `CFBundleVersion` with the git
+commit count (`git rev-list --count HEAD`), so every commit bumps it and it's
+consistent across machines. Nothing to edit by hand — just commit and re-run
+`./gen.sh` before archiving. (`CFBundleShortVersionString` / `1.0` is the public
+version; bump that in `project.yml` only when you ship a new App Store version.)
 
 ## 5. (Optional) Live data updates without an app release
 
