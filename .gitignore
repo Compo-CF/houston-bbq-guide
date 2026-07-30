@@ -1,0 +1,14 @@
+# Xcode / xcodegen
+*.xcodeproj/
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Python pipeline
+__pycache__/
+*.pyc
+
+# generated Info.plist (xcodegen writes it)
+HoustonBBQGuide/Info.plist
