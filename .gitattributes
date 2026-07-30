@@ -1,0 +1,2 @@
+# Keep shell scripts LF so they run on macOS (a CRLF shebang breaks the interpreter).
+*.sh text eol=lf
