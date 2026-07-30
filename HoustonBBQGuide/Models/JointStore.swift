@@ -118,12 +118,12 @@ struct JointFilter {
 
     mutating func toggle(_ facet: String, _ value: String) {
         switch facet {
-        case "styles":            flip(&styles, value)
-        case "primary-pit-type":  flip(&pitTypes, value)
-        case "primary-wood":      flip(&woods, value)
-        case "neighborhood":      flip(&areas, value)
-        case "meals-served":      flip(&meals, value)
-        case "features":          flip(&features, value)
+        case "styles":            Self.flip(&styles, value)
+        case "primary-pit-type":  Self.flip(&pitTypes, value)
+        case "primary-wood":      Self.flip(&woods, value)
+        case "neighborhood":      Self.flip(&areas, value)
+        case "meals-served":      Self.flip(&meals, value)
+        case "features":          Self.flip(&features, value)
         default: break
         }
     }
@@ -140,7 +140,9 @@ struct JointFilter {
         }
     }
 
-    private mutating func flip(_ s: inout Set<String>, _ v: String) {
+    /// Static so it borrows only the passed-in set, not `self` — otherwise the
+    /// call and the `&self.<facet>` argument would be overlapping accesses to self.
+    private static func flip(_ s: inout Set<String>, _ v: String) {
         if s.contains(v) { s.remove(v) } else { s.insert(v) }
     }
 }
