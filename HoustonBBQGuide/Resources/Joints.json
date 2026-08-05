@@ -1,100 +1,21 @@
 {
-  "source": "houbbqguide.com",
+  "source": "google-sheet",
   "count": 27,
   "taxonomies": {
     "styles": [
-      "Central Texas",
       "East Texas",
-      "Combination",
+      "Old-School",
+      "Central Texas",
       "Creative/Elevated",
       "Tex-Mex-Influenced",
-      "Asian-Influenced",
-      "Old-School",
-      "Generic",
-      "East Tennessee"
+      "Combination",
+      "Asian-Influenced"
     ],
-    "neighborhood": [
-      "North",
-      "South",
-      "East",
-      "West",
-      "Northwest",
-      "Northeast",
-      "Southwest",
-      "Southeast",
-      "Central",
-      "1960",
-      "Acres Homes",
-      "Alief",
-      "Atascocita",
-      "Bellaire",
-      "Cypress",
-      "Deer Park",
-      "Downtown",
-      "EaDo",
-      "East End",
-      "Fulshear",
-      "Galleria",
-      "Greater Heights",
-      "Greenway Plaza",
-      "Heights",
-      "Katy",
-      "Katy Area",
-      "Kingwood",
-      "Kingwood Area",
-      "Magnolia",
-      "Memorial Area",
-      "Montrose",
-      "New Caney",
-      "Oak Forest",
-      "Pearland",
-      "Pinehurst",
-      "Richmond",
-      "Sawyer Yards",
-      "Spring",
-      "Spring Branch",
-      "Tanglewilde",
-      "Third Ward",
-      "Tomball",
-      "Washington Ave",
-      "Webster",
-      "West U",
-      "The Woodlands Area"
-    ],
-    "days-open": [
-      "Sunday",
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday"
-    ],
-    "building-type": [
-      "Stand-Alone",
-      "Shopping Center",
-      "Truck/Trailer",
-      "Food Hall",
-      "Gas Station",
-      "Food Market",
-      "Bar/Brewery"
-    ],
-    "accolades": [
-      "2024 Michelin One Star",
-      "2024 Michelin Bib Gourmand",
-      "2022 Houston Chronicle Top 100",
-      "2019 Alison Cook Top 100",
-      "2023 HOUBBQ Festival",
-      "2022 HOUBBQ Festival",
-      "2019 HOUBBQ Festival",
-      "2021 Texas Monthly Top 50",
-      "2017 Texas Monthly Top 50",
-      "2019 Texas Monthly New 25"
-    ],
-    "catering": [
-      "Pickup",
-      "Delivery",
-      "Full Service"
+    "primary-pit-type": [
+      "Rotisserie",
+      "Cabinet/Upright",
+      "Offset Steel",
+      "Offset Brick"
     ],
     "primary-wood": [
       "Oak",
@@ -102,77 +23,147 @@
       "Mesquite",
       "Pecan"
     ],
-    "primary-pit-type": [
-      "Offset Steel",
-      "Offset Brick",
-      "Rotisserie",
-      "Direct Heat",
-      "Cabinet/Upright",
-      "Reverse Flow",
-      "Pellet"
+    "neighborhood": [
+      "West",
+      "Southwest",
+      "Alief",
+      "North",
+      "Kingwood",
+      "Kingwood Area",
+      "Central",
+      "Spring Branch",
+      "Katy",
+      "Katy Area",
+      "Memorial Area",
+      "Tanglewilde",
+      "South",
+      "East",
+      "Southeast",
+      "Deer Park",
+      "Northwest",
+      "1960",
+      "Washington Ave",
+      "Northeast",
+      "Atascocita",
+      "Tomball",
+      "The Woodlands Area",
+      "Galleria",
+      "Third Ward",
+      "Greater Heights",
+      "East End",
+      "Richmond",
+      "West U",
+      "Oak Forest",
+      "Greenway Plaza",
+      "Acres Homes",
+      "Bellaire",
+      "Pearland",
+      "Montrose",
+      "Spring"
     ],
     "meals-served": [
-      "Breakfast",
       "Lunch",
       "Dinner",
-      "Brunch"
+      "Breakfast"
     ],
     "drinks": [
+      "BYOB",
       "Beer",
       "Wine",
-      "Liquor",
-      "BYOB"
+      "Liquor"
+    ],
+    "catering": [
+      "Pickup",
+      "Delivery",
+      "Full Service"
+    ],
+    "building-type": [
+      "Shopping Center",
+      "Stand-Alone",
+      "Food Market",
+      "Food Hall"
+    ],
+    "days-open": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Monday"
+    ],
+    "accolades": [
+      "2023 HOUBBQ Festival",
+      "2022 Houston Chronicle Top 100",
+      "2019 Alison Cook Top 100",
+      "2022 HOUBBQ Festival",
+      "2019 HOUBBQ Festival",
+      "2021 Texas Monthly Top 50",
+      "2017 Texas Monthly Top 50",
+      "2024 Michelin Bib Gourmand",
+      "2019 Texas Monthly New 25",
+      "2024 Michelin One Star"
     ],
     "features": [
-      "To-Go Counter",
-      "Veteran Owned/Operated",
-      "Counter Cut",
-      "Drive-thru",
-      "Online Ordering",
-      "Curbside",
-      "Open Late",
-      "All-Natural Beef",
-      "Private Room",
       "Easy Parking",
-      "Whole Hog",
-      "Open Mondays",
-      "Sausage In-house",
-      "Good for Groups",
       "Essential Houston",
-      "Table Service",
+      "Sausage In-house",
+      "Online Ordering",
+      "Veteran Owned/Operated",
+      "Outdoor Patio",
+      "Good for Groups",
+      "Whole Hog",
+      "Open Late",
       "Does Not Sell Out",
-      "Outdoor Patio"
+      "Open Mondays",
+      "Private Room",
+      "Curbside",
+      "Counter Cut",
+      "To-Go Counter",
+      "Table Service",
+      "All-Natural Beef"
     ]
   },
   "joints": [
     {
       "id": 776,
-      "slug": "guillorys-bar-b-que",
       "name": "Guillory’s Bar-B-Que",
-      "url": "https://houbbqguide.com/bbq-joints/guillorys-bar-b-que/",
-      "description": "Leonard Sr. was born and raised in China, Texas and moved to nearby Beaumont for high school. There, he discovered the unique regional dish known variously as grease balls, garlic bombs, or juicy links at legendary joints like Patillo’s and Broussard’s. After a stint in the Army and a career as a truck driver, he recruited his son to help in opening a barbecue trailer in the Alief neighborhood of west Houston. When he moved Guillory’s Bar-B-Que into the larger storefront across the street he began working on his recipe for the links, made from family memories as well as a recipe from a legendary Beaumont pitmaster known as Big Foot. After some trial and error, Guillory Sr. now makes some of the best links in all of Southeast Texas.",
-      "excerpt": "Beaumont-style beef links had mostly vanished from Houston barbecue menus until Leonard Guillory Sr. and son Leonard Jr. resurrected them at this small Alief storefront of Guillory’s Bar-B-Que.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2023/11/guillory-3.jpg",
+      "slug": "guillorys-bar-b-que",
       "address": "11851 Bissonnet St, Houston, TX 77099",
       "lat": 29.6751001,
       "lng": -95.5865479,
       "phone": null,
       "website": "https://guillorysbarbque.com",
-      "links": {
-        "website": "https://guillorysbarbque.com",
-        "facebook": "https://www.facebook.com/guillorysbarbq/",
-        "chronicle": "https://www.houstonchronicle.com/food-culture/restaurants-bars/bbq/article/guillorys-bbq-alief-houston-18164265.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/guillorys-bar-b-que-houston-review-loaded-boudin/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/cf0b961a-guillory-3.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/guillorys-bar-b-que/",
+      "excerpt": "Beaumont-style beef links had mostly vanished from Houston barbecue menus until Leonard Guillory Sr. and son Leonard Jr. resurrected them at this small Alief storefront of Guillory’s Bar-B-Que.",
+      "description": "Leonard Sr. was born and raised in China, Texas and moved to nearby Beaumont for high school. There, he discovered the unique regional dish known variously as grease balls, garlic bombs, or juicy links at legendary joints like Patillo’s and Broussard’s. After a stint in the Army and a career as a truck driver, he recruited his son to help in opening a barbecue trailer in the Alief neighborhood of west Houston. When he moved Guillory’s Bar-B-Que into the larger storefront across the street he began working on his recipe for the links, made from family memories as well as a recipe from a legendary Beaumont pitmaster known as Big Foot. After some trial and error, Guillory Sr. now makes some of the best links in all of Southeast Texas.",
       "styles": [
         "East Texas",
         "Old-School"
+      ],
+      "primaryPitType": [
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "West",
         "Southwest",
         "Alief"
       ],
+      "mealsServed": [
+        "Lunch",
+        "Dinner"
+      ],
+      "drinks": [],
+      "catering": [
+        "Pickup"
+      ],
+      "buildingType": [
+        "Shopping Center"
+      ],
       "daysOpen": [
         "Tuesday",
         "Wednesday",
@@ -180,83 +171,48 @@
         "Friday",
         "Saturday"
       ],
-      "buildingType": [
-        "Shopping Center"
-      ],
       "accolades": [],
-      "catering": [
-        "Pickup"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Rotisserie"
-      ],
-      "mealsServed": [
-        "Lunch",
-        "Dinner"
-      ],
-      "drinks": [],
       "features": [
         "Easy Parking",
         "Essential Houston",
         "Sausage In-house",
         "Online Ordering",
         "Veteran Owned/Operated"
-      ]
+      ],
+      "links": {
+        "facebook": "https://www.facebook.com/guillorysbarbq/",
+        "chronicle": "https://www.houstonchronicle.com/food-culture/restaurants-bars/bbq/article/guillorys-bbq-alief-houston-18164265.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/guillorys-bar-b-que-houston-review-loaded-boudin/",
+        "website": "https://guillorysbarbque.com"
+      }
     },
     {
       "id": 750,
-      "slug": "fire-craft-bbq",
       "name": "Fire Craft BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/fire-craft-bbq/",
-      "description": "It’s been a long road for David & Teresa Welch to open this friendly and intimate dining room and barbecue joint in a tucked-away shopping center just off Kingwood’s main thoroughfare. David is classically trained in French cuisine and paid his culinary dues at the Pappas Restaurant Group and other restaurants in the Kingwood area. He got bit by the barbecue bug in early 2010s and opened Fire Craft BBQ as a food trailer on land in Kingwood he planned to build on. But the state had different ideas, building a big road extension right in front of the location, causing never-ending construction delays. When a spot became available in a Kingwood shopping center, he and Teresa jumped on it, finally opening a location to showcase David’s substantial culinary and meat-smoking talents.",
-      "excerpt": "Chef David Welch brings top-quality Texas BBQ, traditional southern-style sides, and house-made desserts to Fire Craft BBQ in Kingwood, with a wide variety of naturally seasoned and cured meats.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2023/07/fire-craft-bbq-1.jpg",
+      "slug": "fire-craft-bbq",
       "address": "2665 Royal Forest Dr Suite B10, Kingwood, TX 77339",
       "lat": 30.0531994,
       "lng": -95.2460196,
       "phone": null,
       "website": "https://firecraftbbq.com/",
-      "links": {
-        "website": "https://firecraftbbq.com/",
-        "facebook": "https://www.facebook.com/firecraftbbq",
-        "twitter": "https://twitter.com/FireCraftBBQTX",
-        "instagram": "https://www.instagram.com/firecraftbbqtx"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/65edf244-fire-craft-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/fire-craft-bbq/",
+      "excerpt": "Chef David Welch brings top-quality Texas BBQ, traditional southern-style sides, and house-made desserts to Fire Craft BBQ in Kingwood, with a wide variety of naturally seasoned and cured meats.",
+      "description": "It’s been a long road for David & Teresa Welch to open this friendly and intimate dining room and barbecue joint in a tucked-away shopping center just off Kingwood’s main thoroughfare. David is classically trained in French cuisine and paid his culinary dues at the Pappas Restaurant Group and other restaurants in the Kingwood area. He got bit by the barbecue bug in early 2010s and opened Fire Craft BBQ as a food trailer on land in Kingwood he planned to build on. But the state had different ideas, building a big road extension right in front of the location, causing never-ending construction delays. When a spot became available in a Kingwood shopping center, he and Teresa jumped on it, finally opening a location to showcase David’s substantial culinary and meat-smoking talents.",
       "styles": [
         "Central Texas",
         "Creative/Elevated"
+      ],
+      "primaryPitType": [
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "North",
         "Kingwood",
         "Kingwood Area"
-      ],
-      "daysOpen": [
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "buildingType": [
-        "Shopping Center"
-      ],
-      "accolades": [
-        "2023 HOUBBQ Festival"
-      ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Rotisserie"
       ],
       "mealsServed": [
         "Lunch"
@@ -264,40 +220,77 @@
       "drinks": [
         "BYOB"
       ],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Shopping Center"
+      ],
+      "daysOpen": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "accolades": [
+        "2023 HOUBBQ Festival"
+      ],
       "features": [
         "Easy Parking",
         "Outdoor Patio",
         "Sausage In-house"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/firecraftbbqtx",
+        "facebook": "https://www.facebook.com/firecraftbbq",
+        "twitter": "https://twitter.com/FireCraftBBQTX",
+        "website": "https://firecraftbbq.com/"
+      }
     },
     {
       "id": 733,
-      "slug": "feges-bbq-spring-branch",
       "name": "Feges BBQ – Spring Branch",
-      "url": "https://houbbqguide.com/bbq-joints/feges-bbq-spring-branch/",
-      "description": "With more space for the dining room, kitchen, pit room and patio, Patrick & Erin have been able to fully realize the ambitious and creative style of barbecue they launched with back in 2017. The Spring Branch location fully realizes the Houston-focused menu as well as the look-and-feel of this bright welcoming barbecue joint. The comfortable patio is perfect to hang out on in beautiful weather, sipping a glass of wine from Erin’s expertly chosen list, while the kids play on the adjacent playground. Inside, the dining room is spacious, with the enclosing white walls doubling as screens for old western movies projected on to them. The menu is as creative and satisfying as the original location and then some, with smoked wings, fried chicken and salads rounding out the barbecue menu.",
-      "excerpt": "With the success of their Greenway Plaza location, Patrick & Erin Feges have expanded Feges BBQ to this more accessible and family-friendly location in the booming Spring Branch neighborhood.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2023/01/feges-bbq-spring-branch-1.jpg",
+      "slug": "feges-bbq-spring-branch",
       "address": "8217 Long Point Rd, Houston, TX 77055",
       "lat": 29.8022591,
       "lng": -95.4929727,
       "phone": null,
       "website": "https://fegesbbq.com/spring-branch/",
-      "links": {
-        "website": "https://fegesbbq.com/spring-branch/",
-        "facebook": "https://www.facebook.com/fegesbbqspringbranch",
-        "twitter": "https://twitter.com/FegesBBQ",
-        "instagram": "https://www.instagram.com/fegesbbq",
-        "chronicle": "https://preview.houstonchronicle.com/dining/new-feges-bbq-to-open-in-spring-branch-sunday-16255852",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/feges-bbq-spring-branch-restaurant-review/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/1af5fb76-feges-bbq-spring-branch-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/feges-bbq-spring-branch/",
+      "excerpt": "With the success of their Greenway Plaza location, Patrick & Erin Feges have expanded Feges BBQ to this more accessible and family-friendly location in the booming Spring Branch neighborhood.",
+      "description": "With more space for the dining room, kitchen, pit room and patio, Patrick & Erin have been able to fully realize the ambitious and creative style of barbecue they launched with back in 2017. The Spring Branch location fully realizes the Houston-focused menu as well as the look-and-feel of this bright welcoming barbecue joint. The comfortable patio is perfect to hang out on in beautiful weather, sipping a glass of wine from Erin’s expertly chosen list, while the kids play on the adjacent playground. Inside, the dining room is spacious, with the enclosing white walls doubling as screens for old western movies projected on to them. The menu is as creative and satisfying as the original location and then some, with smoked wings, fried chicken and salads rounding out the barbecue menu.",
       "styles": [
         "Central Texas",
         "Creative/Elevated"
       ],
+      "primaryPitType": [
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak"
+      ],
       "neighborhood": [
         "Central",
         "Spring Branch"
+      ],
+      "mealsServed": [
+        "Lunch",
+        "Dinner"
+      ],
+      "drinks": [
+        "Beer",
+        "Wine"
+      ],
+      "catering": [
+        "Pickup",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Shopping Center"
       ],
       "daysOpen": [
         "Sunday",
@@ -307,9 +300,6 @@
         "Friday",
         "Saturday"
       ],
-      "buildingType": [
-        "Shopping Center"
-      ],
       "accolades": [
         "2022 Houston Chronicle Top 100",
         "2019 Alison Cook Top 100",
@@ -317,24 +307,6 @@
         "2022 HOUBBQ Festival",
         "2019 HOUBBQ Festival",
         "2021 Texas Monthly Top 50"
-      ],
-      "catering": [
-        "Pickup",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Rotisserie"
-      ],
-      "mealsServed": [
-        "Lunch",
-        "Dinner"
-      ],
-      "drinks": [
-        "Beer",
-        "Wine"
       ],
       "features": [
         "Easy Parking",
@@ -345,66 +317,43 @@
         "Open Late",
         "Online Ordering",
         "Veteran Owned/Operated"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/fegesbbq",
+        "facebook": "https://www.facebook.com/fegesbbqspringbranch",
+        "twitter": "https://twitter.com/FegesBBQ",
+        "chronicle": "https://preview.houstonchronicle.com/dining/new-feges-bbq-to-open-in-spring-branch-sunday-16255852",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/feges-bbq-spring-branch-restaurant-review/",
+        "website": "https://fegesbbq.com/spring-branch/"
+      }
     },
     {
       "id": 729,
-      "slug": "roegels-barbecue-katy",
       "name": "Roegels Barbecue Co. – Katy",
-      "url": "https://houbbqguide.com/bbq-joints/roegels-barbecue-katy/",
-      "description": "When Russell and Misty Roegels moved to Katy 20 years ago, they considered the fast-growing suburb as a possible second location for their Galleria-area barbecue joint, Baker’s Ribs. But then life got busy. They started a family. Baker’s Ribs became successful, and they eventually transformed the restaurant into Roegels Barbecue Co . Fast forward to 2021. Their kids had graduated high school. The original Roegels location has become a Houston barbecue staple with a loyal clientele and dedicated staff. The time was right to move west. Though they considered other areas like the Energy Corridor and Cypress, Katy was always their first choice.",
-      "excerpt": "After establishing their flagship location on S. Voss in Houston, Russell & Misty Roegels ventured west to the booming Katy area, bringing outstanding craft barbecue to an area that needed world-class smoked meats.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2023/01/roegels-barbecue-katy-1.jpg",
+      "slug": "roegels-barbecue-katy",
       "address": "20702 Katy Fwy, Katy, TX 77449",
       "lat": 29.7855226,
       "lng": -95.8017875,
       "phone": null,
       "website": "https://roegelsbarbecue.com/katy-freeway/",
-      "links": {
-        "website": "https://roegelsbarbecue.com/katy-freeway/",
-        "facebook": "https://www.facebook.com/RoegelsBarbecueKaty",
-        "twitter": "https://twitter.com/RoegelsBarbecue",
-        "instagram": "https://www.instagram.com/roegelsbarbecue",
-        "chronicle": "https://www.houstonchronicle.com/food-culture/restaurants-bars/article/Roegels-adds-to-Katy-s-status-as-growing-17011364.php"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/ff5d06f4-roegels-barbecue-katy-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/roegels-barbecue-katy/",
+      "excerpt": "After establishing their flagship location on S. Voss in Houston, Russell & Misty Roegels ventured west to the booming Katy area, bringing outstanding craft barbecue to an area that needed world-class smoked meats.",
+      "description": "When Russell and Misty Roegels moved to Katy 20 years ago, they considered the fast-growing suburb as a possible second location for their Galleria-area barbecue joint, Baker’s Ribs. But then life got busy. They started a family. Baker’s Ribs became successful, and they eventually transformed the restaurant into Roegels Barbecue Co . Fast forward to 2021. Their kids had graduated high school. The original Roegels location has become a Houston barbecue staple with a loyal clientele and dedicated staff. The time was right to move west. Though they considered other areas like the Energy Corridor and Cypress, Katy was always their first choice.",
       "styles": [
         "Central Texas"
+      ],
+      "primaryPitType": [
+        "Rotisserie",
+        "Cabinet/Upright"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "West",
         "Katy",
         "Katy Area"
-      ],
-      "daysOpen": [
-        "Sunday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "buildingType": [
-        "Shopping Center"
-      ],
-      "accolades": [
-        "2022 Houston Chronicle Top 100",
-        "2019 Alison Cook Top 100",
-        "2023 HOUBBQ Festival",
-        "2022 HOUBBQ Festival",
-        "2019 HOUBBQ Festival",
-        "2017 Texas Monthly Top 50"
-      ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Rotisserie",
-        "Cabinet/Upright"
       ],
       "mealsServed": [
         "Lunch",
@@ -415,6 +364,30 @@
         "Wine",
         "Liquor"
       ],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Shopping Center"
+      ],
+      "daysOpen": [
+        "Sunday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "accolades": [
+        "2022 Houston Chronicle Top 100",
+        "2019 Alison Cook Top 100",
+        "2023 HOUBBQ Festival",
+        "2022 HOUBBQ Festival",
+        "2019 HOUBBQ Festival",
+        "2017 Texas Monthly Top 50"
+      ],
       "features": [
         "Easy Parking",
         "Outdoor Patio",
@@ -422,62 +395,41 @@
         "Sausage In-house",
         "Online Ordering",
         "Veteran Owned/Operated"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/roegelsbarbecue",
+        "facebook": "https://www.facebook.com/RoegelsBarbecueKaty",
+        "twitter": "https://twitter.com/RoegelsBarbecue",
+        "chronicle": "https://www.houstonchronicle.com/food-culture/restaurants-bars/article/Roegels-adds-to-Katy-s-status-as-growing-17011364.php",
+        "website": "https://roegelsbarbecue.com/katy-freeway/"
+      }
     },
     {
       "id": 314,
-      "slug": "henderson-kane",
       "name": "Henderson & Kane",
-      "url": "https://houbbqguide.com/bbq-joints/henderson-kane/",
-      "description": "Houston’s Sixth Ward is something of a hidden throwback in a bustling city – historically protected homes along wide streets with the original brick paving showing through here-and-there. In that sense, Henderson & Kane (named for the intersection it is on) is a perfect fit – hyper-local specialty products combined with grocery essentials. Then, of course, there is the Avila’s barbecue, inspired by John’s time working at his grandparent’s barbecue joint in nearby Bryan, which combines CTX-style craft barbecue with south and southeast Texas influences. The Avila’s appropriately call it “Smoked Texana” with its highly personal flair and flavoring.",
-      "excerpt": "John & Veronica Avila renovated an old meat market building in Houston’s historic Sixth Ward into a neighborhood general store/barbecue joint featuring local, artisanal food products and smoked meats.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/henderson-kane-1.jpg",
+      "slug": "henderson-kane",
       "address": "715 Henderson St, Houston, TX 77007",
       "lat": 29.7660029,
       "lng": -95.3795554,
       "phone": null,
       "website": "https://hkgeneralstore.com/",
-      "links": {
-        "website": "https://hkgeneralstore.com/",
-        "facebook": "https://www.facebook.com/hendersonandkane/",
-        "twitter": "https://twitter.com/HendersonandKan",
-        "instagram": "https://www.instagram.com/hendersonandkane",
-        "chronicle": "https://preview.houstonchronicle.com/dining/burger-friday-henderson-kane-grindhouse-burger-15559982"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/9f237bae-henderson-kane-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/henderson-kane/",
+      "excerpt": "John & Veronica Avila renovated an old meat market building in Houston’s historic Sixth Ward into a neighborhood general store/barbecue joint featuring local, artisanal food products and smoked meats.",
+      "description": "Houston’s Sixth Ward is something of a hidden throwback in a bustling city – historically protected homes along wide streets with the original brick paving showing through here-and-there. In that sense, Henderson & Kane (named for the intersection it is on) is a perfect fit – hyper-local specialty products combined with grocery essentials. Then, of course, there is the Avila’s barbecue, inspired by John’s time working at his grandparent’s barbecue joint in nearby Bryan, which combines CTX-style craft barbecue with south and southeast Texas influences. The Avila’s appropriately call it “Smoked Texana” with its highly personal flair and flavoring.",
       "styles": [
         "Central Texas",
         "Creative/Elevated",
         "Tex-Mex-Influenced"
       ],
-      "neighborhood": [
-        "Central"
-      ],
-      "daysOpen": [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "buildingType": [
-        "Stand-Alone",
-        "Food Market"
-      ],
-      "accolades": [
-        "2023 HOUBBQ Festival"
-      ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
+      "primaryPitType": [
+        "Offset Steel"
       ],
       "primaryWood": [
         "Oak"
       ],
-      "primaryPitType": [
-        "Offset Steel"
+      "neighborhood": [
+        "Central"
       ],
       "mealsServed": [
         "Breakfast",
@@ -488,40 +440,14 @@
         "Beer",
         "Wine"
       ],
-      "features": [
-        "Outdoor Patio",
-        "Essential Houston",
-        "Sausage In-house",
-        "Open Mondays"
-      ]
-    },
-    {
-      "id": 99,
-      "slug": "the-brisket-house-woodway",
-      "name": "The Brisket House – Woodway",
-      "url": "https://houbbqguide.com/bbq-joints/the-brisket-house-woodway/",
-      "description": "Opening a barbecue joint in an upscale neighborhood like Tanglewood was relatively novel in 2010, when suburban and rural joints were still the standard. But with the rise of craft barbecue, the clientele began to skew upscale too, and this location perfectly fit the bill. The wood-burning Southern Pride smoker sitting right by the door was also also quite new, as most old-school joints had rickety, rusty old pits in the back not meant for public viewing. Though located in a shopping center, the fragrance of burning post oak still permeates the dining room, adding to barbecue bona fides of this location of The Brisket House – Woodway.",
-      "excerpt": "Wayne Kammerl is one of the original craft-barbecue pitmasters in Houston, opening his original Brisket House location in 2010 as an homage to his early experience at legendary Tom’s BBQ in College Station.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/brisket-house-woodway-1.jpg",
-      "address": "5775 Woodway Dr, Houston, TX 77057",
-      "lat": 29.7612353,
-      "lng": -95.4817119,
-      "phone": null,
-      "website": "https://thebriskethouse.com",
-      "links": {
-        "website": "https://thebriskethouse.com",
-        "facebook": "https://www.facebook.com/BrisketHouse",
-        "twitter": "https://twitter.com/thebriskethouse",
-        "instagram": "https://www.instagram.com/briskethouse",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/The-travails-of-opening-a-barbecue-joint-6777773.php"
-      },
-      "styles": [
-        "Central Texas"
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
       ],
-      "neighborhood": [
-        "West",
-        "Memorial Area",
-        "Tanglewilde"
+      "buildingType": [
+        "Stand-Alone",
+        "Food Market"
       ],
       "daysOpen": [
         "Sunday",
@@ -532,23 +458,49 @@
         "Friday",
         "Saturday"
       ],
-      "buildingType": [
-        "Shopping Center"
-      ],
       "accolades": [
-        "2023 HOUBBQ Festival",
-        "2022 HOUBBQ Festival",
-        "2019 HOUBBQ Festival"
+        "2023 HOUBBQ Festival"
       ],
-      "catering": [
-        "Pickup",
-        "Delivery"
+      "features": [
+        "Outdoor Patio",
+        "Essential Houston",
+        "Sausage In-house",
+        "Open Mondays"
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/hendersonandkane",
+        "facebook": "https://www.facebook.com/hendersonandkane/",
+        "twitter": "https://twitter.com/HendersonandKan",
+        "chronicle": "https://preview.houstonchronicle.com/dining/burger-friday-henderson-kane-grindhouse-burger-15559982",
+        "website": "https://hkgeneralstore.com/"
+      }
+    },
+    {
+      "id": 99,
+      "name": "The Brisket House – Woodway",
+      "slug": "the-brisket-house-woodway",
+      "address": "5775 Woodway Dr, Houston, TX 77057",
+      "lat": 29.7612353,
+      "lng": -95.4817119,
+      "phone": null,
+      "website": "https://thebriskethouse.com",
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/6db7879d-brisket-house-woodway-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/the-brisket-house-woodway/",
+      "excerpt": "Wayne Kammerl is one of the original craft-barbecue pitmasters in Houston, opening his original Brisket House location in 2010 as an homage to his early experience at legendary Tom’s BBQ in College Station.",
+      "description": "Opening a barbecue joint in an upscale neighborhood like Tanglewood was relatively novel in 2010, when suburban and rural joints were still the standard. But with the rise of craft barbecue, the clientele began to skew upscale too, and this location perfectly fit the bill. The wood-burning Southern Pride smoker sitting right by the door was also also quite new, as most old-school joints had rickety, rusty old pits in the back not meant for public viewing. Though located in a shopping center, the fragrance of burning post oak still permeates the dining room, adding to barbecue bona fides of this location of The Brisket House – Woodway.",
+      "styles": [
+        "Central Texas"
+      ],
+      "primaryPitType": [
+        "Rotisserie"
       ],
       "primaryWood": [
         "Oak"
       ],
-      "primaryPitType": [
-        "Rotisserie"
+      "neighborhood": [
+        "West",
+        "Memorial Area",
+        "Tanglewilde"
       ],
       "mealsServed": [
         "Lunch",
@@ -558,33 +510,60 @@
         "Beer",
         "Wine"
       ],
+      "catering": [
+        "Pickup",
+        "Delivery"
+      ],
+      "buildingType": [
+        "Shopping Center"
+      ],
+      "daysOpen": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "accolades": [
+        "2023 HOUBBQ Festival",
+        "2022 HOUBBQ Festival",
+        "2019 HOUBBQ Festival"
+      ],
       "features": [
         "Does Not Sell Out",
         "Open Mondays"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/briskethouse",
+        "facebook": "https://www.facebook.com/BrisketHouse",
+        "twitter": "https://twitter.com/thebriskethouse",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/The-travails-of-opening-a-barbecue-joint-6777773.php",
+        "website": "https://thebriskethouse.com"
+      }
     },
     {
       "id": 98,
-      "slug": "the-brisket-house-deer-park",
       "name": "The Brisket House – Deer Park",
-      "url": "https://houbbqguide.com/bbq-joints/the-brisket-house-deer-park/",
-      "description": "Indeed, the blue-collar area of Deer Park, Pasadena and Baytown are known mainly for refineries and Urban Cowboy and not so much for great barbecue. Though there are a few chain barbecue restaurants, Kammerl’s decision to bring craft barbecue to Houston’s east side was a stroke of genius. But not just in terms of barbecue consumer demand. Refineries are historically massive consumers of barbecue catering, with jobs for upwards of hundreds of employees. Refinery workers have come to expect great barbecue as part of the job and this location of The Brisket House – Deer Park fits the bill.",
-      "excerpt": "Populated by oil refineries and chemical plants in cities like Deer Park and Baytown, Houston’s far east side was never known for great barbecue until this outpost of The Brisket House opened.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/the-brisket-house-deer-park-2.jpg",
+      "slug": "the-brisket-house-deer-park",
       "address": "3217 Center St, Deer Park, TX 77536",
       "lat": 29.6834336,
       "lng": -95.1232657,
       "phone": null,
       "website": "https://thebriskethouse.com",
-      "links": {
-        "website": "https://thebriskethouse.com",
-        "facebook": "https://www.facebook.com/BrisketHouse",
-        "twitter": "https://twitter.com/thebriskethouse",
-        "instagram": "https://www.instagram.com/briskethouse/",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/The-travails-of-opening-a-barbecue-joint-6777773.php"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/7b1bee18-the-brisket-house-deer-park-2.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/the-brisket-house-deer-park/",
+      "excerpt": "Populated by oil refineries and chemical plants in cities like Deer Park and Baytown, Houston’s far east side was never known for great barbecue until this outpost of The Brisket House opened.",
+      "description": "Indeed, the blue-collar area of Deer Park, Pasadena and Baytown are known mainly for refineries and Urban Cowboy and not so much for great barbecue. Though there are a few chain barbecue restaurants, Kammerl’s decision to bring craft barbecue to Houston’s east side was a stroke of genius. But not just in terms of barbecue consumer demand. Refineries are historically massive consumers of barbecue catering, with jobs for upwards of hundreds of employees. Refinery workers have come to expect great barbecue as part of the job and this location of The Brisket House – Deer Park fits the bill.",
       "styles": [
         "Central Texas"
+      ],
+      "primaryPitType": [
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "South",
@@ -592,72 +571,17 @@
         "Southeast",
         "Deer Park"
       ],
-      "daysOpen": [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
-      "accolades": [
-        "2023 HOUBBQ Festival",
-        "2022 HOUBBQ Festival",
-        "2019 HOUBBQ Festival"
-      ],
-      "catering": [
-        "Pickup",
-        "Delivery"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Rotisserie"
-      ],
       "mealsServed": [
         "Lunch",
         "Dinner"
       ],
       "drinks": [],
-      "features": [
-        "Easy Parking",
-        "Outdoor Patio",
-        "Does Not Sell Out",
-        "Open Mondays"
-      ]
-    },
-    {
-      "id": 97,
-      "slug": "the-brisket-house-1960",
-      "name": "The Brisket House – 1960",
-      "url": "https://houbbqguide.com/bbq-joints/the-brisket-house-1960/",
-      "description": "This former Fuddruckers building sits at the epicenter of the FM1960 (now Cypress Creek Parkway) traffic rush, with untold numbers of commuters passing by every day. In other words, it’s a great location for barbecue fans to drop in for lunch or a to-go order for dinner at The Brisket House – 1960. That said, it’s well-built for dine-in, with a private room and huge dining rooms filled with TVs. A massive parking lot ensures customers can get in and out quickly. The two Southern Pride rotisseries are viewable from a window in the back of the dining room. Barbecue is excellent across-the-board, and well-priced.",
-      "excerpt": "This is the 3rd location of Wayne Kammerl’s mini-empire of consistently great, Central Texas-style barbecue, strategically located on a busy stretch of FM1960 where great barbecue is few and far between.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/brisket-house-1960-1.jpg",
-      "address": "3301 Cypress Creek Pkwy, Houston, TX 77068",
-      "lat": 29.9665554,
-      "lng": -95.5376907,
-      "phone": null,
-      "website": "https://thebriskethouse.com",
-      "links": {
-        "website": "https://thebriskethouse.com",
-        "facebook": "https://www.facebook.com/BrisketHouse",
-        "twitter": "https://twitter.com/thebriskethouse",
-        "instagram": "https://www.instagram.com/briskethouse",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/The-travails-of-opening-a-barbecue-joint-6777773.php"
-      },
-      "styles": [
-        "Central Texas"
+      "catering": [
+        "Pickup",
+        "Delivery"
       ],
-      "neighborhood": [
-        "North",
-        "Northwest",
-        "1960"
+      "buildingType": [
+        "Stand-Alone"
       ],
       "daysOpen": [
         "Sunday",
@@ -668,23 +592,51 @@
         "Friday",
         "Saturday"
       ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
       "accolades": [
         "2023 HOUBBQ Festival",
         "2022 HOUBBQ Festival",
         "2019 HOUBBQ Festival"
       ],
-      "catering": [
-        "Pickup",
-        "Delivery"
+      "features": [
+        "Easy Parking",
+        "Outdoor Patio",
+        "Does Not Sell Out",
+        "Open Mondays"
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/briskethouse/",
+        "facebook": "https://www.facebook.com/BrisketHouse",
+        "twitter": "https://twitter.com/thebriskethouse",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/The-travails-of-opening-a-barbecue-joint-6777773.php",
+        "website": "https://thebriskethouse.com"
+      }
+    },
+    {
+      "id": 97,
+      "name": "The Brisket House – 1960",
+      "slug": "the-brisket-house-1960",
+      "address": "3301 Cypress Creek Pkwy, Houston, TX 77068",
+      "lat": 29.9665554,
+      "lng": -95.5376907,
+      "phone": null,
+      "website": "https://thebriskethouse.com",
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/ea586b12-brisket-house-1960-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/the-brisket-house-1960/",
+      "excerpt": "This is the 3rd location of Wayne Kammerl’s mini-empire of consistently great, Central Texas-style barbecue, strategically located on a busy stretch of FM1960 where great barbecue is few and far between.",
+      "description": "This former Fuddruckers building sits at the epicenter of the FM1960 (now Cypress Creek Parkway) traffic rush, with untold numbers of commuters passing by every day. In other words, it’s a great location for barbecue fans to drop in for lunch or a to-go order for dinner at The Brisket House – 1960. That said, it’s well-built for dine-in, with a private room and huge dining rooms filled with TVs. A massive parking lot ensures customers can get in and out quickly. The two Southern Pride rotisseries are viewable from a window in the back of the dining room. Barbecue is excellent across-the-board, and well-priced.",
+      "styles": [
+        "Central Texas"
+      ],
+      "primaryPitType": [
+        "Rotisserie"
       ],
       "primaryWood": [
         "Oak"
       ],
-      "primaryPitType": [
-        "Rotisserie"
+      "neighborhood": [
+        "North",
+        "Northwest",
+        "1960"
       ],
       "mealsServed": [
         "Lunch",
@@ -693,6 +645,27 @@
       "drinks": [
         "Beer",
         "Wine"
+      ],
+      "catering": [
+        "Pickup",
+        "Delivery"
+      ],
+      "buildingType": [
+        "Stand-Alone"
+      ],
+      "daysOpen": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "accolades": [
+        "2023 HOUBBQ Festival",
+        "2022 HOUBBQ Festival",
+        "2019 HOUBBQ Festival"
       ],
       "features": [
         "Easy Parking",
@@ -701,65 +674,40 @@
         "Good for Groups",
         "Open Mondays",
         "Private Room"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/briskethouse",
+        "facebook": "https://www.facebook.com/BrisketHouse",
+        "twitter": "https://twitter.com/thebriskethouse",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/The-travails-of-opening-a-barbecue-joint-6777773.php",
+        "website": "https://thebriskethouse.com"
+      }
     },
     {
       "id": 96,
-      "slug": "truth-bbq",
       "name": "Truth BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/truth-bbq/",
-      "description": "The original location in Brenham had been a couple of old-school joints over the years – eccentric places but forgettable barbecue. So when Leonard Botello IV took it over and hung out the Truth BBQ shingle, serving world-class CTX-style barbecue from day one, barbecue fans speeding to-and-from Houston and Austin rejoiced. The Houston location appeared several years later (the Brenham location is still open) with a long gestation period that only ramped up the barbecue fan frenzy. The big 1000-gallon offset barrel pits were a doozy to install, but once complete, the high-traffic location and Botello’s exquisite barbecue made this one of the best and busiest barbecue joints in Houston when the doors opened.",
-      "excerpt": "The original Truth BBQ took over an old barbecue joint on the highway between Houston and Austin and quickly became a destination; the Houston location opened in 2019 and is a must-visit for classic CTX ‘Q.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/truth-bbq-1.jpg",
+      "slug": "truth-bbq",
       "address": "110 S Heights Blvd, Houston, TX 77007",
       "lat": 29.7690291,
       "lng": -95.3976625,
       "phone": null,
       "website": "https://www.truthbbq.com",
-      "links": {
-        "website": "https://www.truthbbq.com",
-        "facebook": "https://www.facebook.com/TruthBBQ",
-        "twitter": "https://twitter.com/truth_bbq",
-        "instagram": "https://www.instagram.com/truth_bbq",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/reviews/article/Review-Truth-BBQ-on-Washington-Avenue-13866195.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/truth-barbeque-2016/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/e0be4f72-truth-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/truth-bbq/",
+      "excerpt": "The original Truth BBQ took over an old barbecue joint on the highway between Houston and Austin and quickly became a destination; the Houston location opened in 2019 and is a must-visit for classic CTX ‘Q.",
+      "description": "The original location in Brenham had been a couple of old-school joints over the years – eccentric places but forgettable barbecue. So when Leonard Botello IV took it over and hung out the Truth BBQ shingle, serving world-class CTX-style barbecue from day one, barbecue fans speeding to-and-from Houston and Austin rejoiced. The Houston location appeared several years later (the Brenham location is still open) with a long gestation period that only ramped up the barbecue fan frenzy. The big 1000-gallon offset barrel pits were a doozy to install, but once complete, the high-traffic location and Botello’s exquisite barbecue made this one of the best and busiest barbecue joints in Houston when the doors opened.",
       "styles": [
         "Central Texas"
       ],
-      "neighborhood": [
-        "Central",
-        "Washington Ave"
-      ],
-      "daysOpen": [
-        "Sunday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
-      "accolades": [
-        "2024 Michelin Bib Gourmand",
-        "2022 Houston Chronicle Top 100",
-        "2019 Alison Cook Top 100",
-        "2023 HOUBBQ Festival",
-        "2022 HOUBBQ Festival",
-        "2021 Texas Monthly Top 50"
-      ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
+      "primaryPitType": [
+        "Offset Steel"
       ],
       "primaryWood": [
         "Oak"
       ],
-      "primaryPitType": [
-        "Offset Steel"
+      "neighborhood": [
+        "Central",
+        "Washington Ave"
       ],
       "mealsServed": [
         "Lunch",
@@ -770,6 +718,30 @@
         "Wine",
         "Liquor"
       ],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Stand-Alone"
+      ],
+      "daysOpen": [
+        "Sunday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "accolades": [
+        "2024 Michelin Bib Gourmand",
+        "2022 Houston Chronicle Top 100",
+        "2019 Alison Cook Top 100",
+        "2023 HOUBBQ Festival",
+        "2022 HOUBBQ Festival",
+        "2021 Texas Monthly Top 50"
+      ],
       "features": [
         "Outdoor Patio",
         "Good for Groups",
@@ -778,30 +750,38 @@
         "Curbside",
         "Online Ordering",
         "Counter Cut"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/truth_bbq",
+        "facebook": "https://www.facebook.com/TruthBBQ",
+        "twitter": "https://twitter.com/truth_bbq",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/reviews/article/Review-Truth-BBQ-on-Washington-Avenue-13866195.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/truth-barbeque-2016/",
+        "website": "https://www.truthbbq.com"
+      }
     },
     {
       "id": 94,
-      "slug": "tin-roof-bbq",
       "name": "Tin Roof BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/tin-roof-bbq/",
-      "description": "Son Brek Webber has taken the pitmaster lead nowadays, supplementing a collection of offset barrel smokers with big Oyler rotisseries to produce the growing volume of barbecue needed to serve this booming community. Prime briskets are the cornerstone of the smoked meat offerings along with a growing collection of excellent house-made sausages. There’s a huge outdoor patio and play area that’s family-friendly and features live music on weekends. Tin Roof BBQ has become known for their charitable activities with Brek and parents Nancy and Ronnie pulling their big barbecue trailers all over the country to help out feeding those in need during disasters.",
-      "excerpt": "In 2001 the Webber family bought a plot of land in what would become the center of booming Atascocita and built a sprawling barbecue joint that has become a community gathering place.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2020/12/tin-roof-bbq-1.jpg",
+      "slug": "tin-roof-bbq",
       "address": "18918 Town Center Blvd, Atascocita, TX 77346",
       "lat": 29.9962354,
       "lng": -95.1741968,
       "phone": null,
       "website": "https://www.tinroofbbqtexas.com",
-      "links": {
-        "website": "https://www.tinroofbbqtexas.com",
-        "facebook": "https://www.facebook.com/TinRoofBBQ",
-        "twitter": "https://twitter.com/tinroofbbq",
-        "instagram": "https://www.instagram.com/tin_roof_bbq",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Tin-Roof-BBQ-pieces-together-an-empire-6692355.php"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/d8117a5d-tin-roof-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/tin-roof-bbq/",
+      "excerpt": "In 2001 the Webber family bought a plot of land in what would become the center of booming Atascocita and built a sprawling barbecue joint that has become a community gathering place.",
+      "description": "Son Brek Webber has taken the pitmaster lead nowadays, supplementing a collection of offset barrel smokers with big Oyler rotisseries to produce the growing volume of barbecue needed to serve this booming community. Prime briskets are the cornerstone of the smoked meat offerings along with a growing collection of excellent house-made sausages. There’s a huge outdoor patio and play area that’s family-friendly and features live music on weekends. Tin Roof BBQ has become known for their charitable activities with Brek and parents Nancy and Ronnie pulling their big barbecue trailers all over the country to help out feeding those in need during disasters.",
       "styles": [
         "Central Texas"
+      ],
+      "primaryPitType": [
+        "Offset Steel",
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "North",
@@ -812,33 +792,6 @@
         "Kingwood",
         "Kingwood Area"
       ],
-      "daysOpen": [
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
-      "accolades": [
-        "2023 HOUBBQ Festival",
-        "2022 HOUBBQ Festival",
-        "2019 HOUBBQ Festival"
-      ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Offset Steel",
-        "Rotisserie"
-      ],
       "mealsServed": [
         "Lunch",
         "Dinner"
@@ -846,6 +799,26 @@
       "drinks": [
         "Beer",
         "Wine"
+      ],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Stand-Alone"
+      ],
+      "daysOpen": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "accolades": [
+        "2023 HOUBBQ Festival",
+        "2022 HOUBBQ Festival",
+        "2019 HOUBBQ Festival"
       ],
       "features": [
         "Easy Parking",
@@ -855,32 +828,37 @@
         "Private Room",
         "Online Ordering",
         "Counter Cut"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/tin_roof_bbq",
+        "facebook": "https://www.facebook.com/TinRoofBBQ",
+        "twitter": "https://twitter.com/tinroofbbq",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Tin-Roof-BBQ-pieces-together-an-empire-6692355.php",
+        "website": "https://www.tinroofbbqtexas.com"
+      }
     },
     {
       "id": 92,
-      "slug": "tejas-chocolate-bbq",
       "name": "Tejas Chocolate & BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/tejas-chocolate-bbq/",
-      "description": "As co-owner Scott Moore often says, he and his brother Greg and partner Michelle started making barbecue to supplement their chocolate addiction. And indeed, both the chocolate and the barbecue here are addictive. There’s a ever-evolving menu of creative items to embellish the great trinity at Tejas Chocolate & BBQ – soups in the winter are worth looking out for and the barbacoa tacos and queso-drenched brisket nachos are mouthwatering just to think about. One recent addition to the menu – smoked burgers – became so popular that they spun-off a whole new burger joint down the street. The nearby Tejas To-Go Market includes vacuum-packed versions of their menu items for re-heating at home. And of course don’t miss the chocolate display as you wait to place your order in the main restaurant.",
-      "excerpt": "A barbecue joint that offers world-class smoked meats alongside handmade chocolate sounds like the perfect idea, and owners Scott & Greg Moore and Michelle Holland have delivered just that in Old Town Tomball.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/tejas-bbq-1.jpg",
+      "slug": "tejas-chocolate-bbq",
       "address": "200 N Elm St, Tomball, TX 77375",
       "lat": 30.0989606,
       "lng": -95.6147818,
       "phone": null,
       "website": "https://www.tejaschocolate.com",
-      "links": {
-        "website": "https://www.tejaschocolate.com",
-        "facebook": "https://www.facebook.com/TejasChocolate",
-        "twitter": "https://twitter.com/tejaschocolate",
-        "instagram": "https://www.instagram.com/tejaschocolate",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Craft-barbecue-meets-craft-chocolate-at-Tejas-6616106.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/tejas-chocolate-barbecue-is-still-innovating/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/5283b3d3-tejas-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/tejas-chocolate-bbq/",
+      "excerpt": "A barbecue joint that offers world-class smoked meats alongside handmade chocolate sounds like the perfect idea, and owners Scott & Greg Moore and Michelle Holland have delivered just that in Old Town Tomball.",
+      "description": "As co-owner Scott Moore often says, he and his brother Greg and partner Michelle started making barbecue to supplement their chocolate addiction. And indeed, both the chocolate and the barbecue here are addictive. There’s a ever-evolving menu of creative items to embellish the great trinity at Tejas Chocolate & BBQ – soups in the winter are worth looking out for and the barbacoa tacos and queso-drenched brisket nachos are mouthwatering just to think about. One recent addition to the menu – smoked burgers – became so popular that they spun-off a whole new burger joint down the street. The nearby Tejas To-Go Market includes vacuum-packed versions of their menu items for re-heating at home. And of course don’t miss the chocolate display as you wait to place your order in the main restaurant.",
       "styles": [
         "Central Texas",
         "Creative/Elevated"
+      ],
+      "primaryPitType": [
+        "Offset Steel"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "North",
@@ -889,15 +867,28 @@
         "Tomball",
         "The Woodlands Area"
       ],
+      "mealsServed": [
+        "Lunch",
+        "Dinner"
+      ],
+      "drinks": [
+        "Beer",
+        "Wine"
+      ],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Stand-Alone"
+      ],
       "daysOpen": [
         "Tuesday",
         "Wednesday",
         "Thursday",
         "Friday",
         "Saturday"
-      ],
-      "buildingType": [
-        "Stand-Alone"
       ],
       "accolades": [
         "2024 Michelin Bib Gourmand",
@@ -909,25 +900,6 @@
         "2021 Texas Monthly Top 50",
         "2017 Texas Monthly Top 50"
       ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Offset Steel"
-      ],
-      "mealsServed": [
-        "Lunch",
-        "Dinner"
-      ],
-      "drinks": [
-        "Beer",
-        "Wine"
-      ],
       "features": [
         "Outdoor Patio",
         "Good for Groups",
@@ -935,35 +907,56 @@
         "To-Go Counter",
         "Curbside",
         "Online Ordering"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/tejaschocolate",
+        "facebook": "https://www.facebook.com/TejasChocolate",
+        "twitter": "https://twitter.com/tejaschocolate",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Craft-barbecue-meets-craft-chocolate-at-Tejas-6616106.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/tejas-chocolate-barbecue-is-still-innovating/",
+        "website": "https://www.tejaschocolate.com"
+      }
     },
     {
       "id": 91,
-      "slug": "southern-q-bbq",
       "name": "Southern Q BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/southern-q-bbq/",
-      "description": "Steve drove a truck and wife Sherice taught school in 2010 when they began making barbecue for friends, family, and parishioners at their local church. Steve grew up in Lufkin and had eaten ETX-style barbecue his whole life, both in his own family’s backyard as well as in local barbecue joints. Not only is Steve a connoisseur of ETX barbecue, but he’s something of a scholar, researching a possible connection between his family and the legendary Houston pistmaster Matt Garner (no evidence of that yet). With encouragement from friends and family, the Garners opened their Southern Q barbecue trailer in a dusty parking lot in the FM1960 area in 2014. Their superb ETX dishes like smoked turkey legs and boudin became a big hit, and Steve added a worthy CTX-style brisket to bring in newer barbecue fans. They eventually opened in a small location on nearby Kuykendahl and now serve from a much bigger location on a blue-collar stretch of Richey Road just west of I-45.",
-      "excerpt": "Steve & Sherice Garner started by cooking for friends and family in their backyard, moved on to a food truck, and now run a brick-and-mortar joint making some of the best East Texas-style ‘Q in the city.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/southern-q-1.jpg",
+      "slug": "southern-q-bbq",
       "address": "411 W Richey Rd, Houston, TX 77090",
       "lat": 29.9979543,
       "lng": -95.424834,
       "phone": null,
       "website": "https://www.southernqbbqcatering.com",
-      "links": {
-        "website": "https://www.southernqbbqcatering.com",
-        "facebook": "https://www.facebook.com/SouthernQCatering",
-        "twitter": "https://twitter.com/southernq_",
-        "instagram": "https://www.instagram.com/southernq_bbq",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/New-digs-Southern-Q-BBQ-opens-on-West-Richey-13727706.php"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/f9d5152c-southern-q-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/southern-q-bbq/",
+      "excerpt": "Steve & Sherice Garner started by cooking for friends and family in their backyard, moved on to a food truck, and now run a brick-and-mortar joint making some of the best East Texas-style ‘Q in the city.",
+      "description": "Steve drove a truck and wife Sherice taught school in 2010 when they began making barbecue for friends, family, and parishioners at their local church. Steve grew up in Lufkin and had eaten ETX-style barbecue his whole life, both in his own family’s backyard as well as in local barbecue joints. Not only is Steve a connoisseur of ETX barbecue, but he’s something of a scholar, researching a possible connection between his family and the legendary Houston pistmaster Matt Garner (no evidence of that yet). With encouragement from friends and family, the Garners opened their Southern Q barbecue trailer in a dusty parking lot in the FM1960 area in 2014. Their superb ETX dishes like smoked turkey legs and boudin became a big hit, and Steve added a worthy CTX-style brisket to bring in newer barbecue fans. They eventually opened in a small location on nearby Kuykendahl and now serve from a much bigger location on a blue-collar stretch of Richey Road just west of I-45.",
       "styles": [
         "Central Texas",
         "East Texas",
         "Combination"
       ],
+      "primaryPitType": [
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak",
+        "Hickory"
+      ],
       "neighborhood": [
         "North"
+      ],
+      "mealsServed": [
+        "Lunch",
+        "Dinner"
+      ],
+      "drinks": [],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Stand-Alone"
       ],
       "daysOpen": [
         "Sunday",
@@ -973,31 +966,11 @@
         "Friday",
         "Saturday"
       ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
       "accolades": [
         "2023 HOUBBQ Festival",
         "2022 HOUBBQ Festival",
         "2019 HOUBBQ Festival"
       ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak",
-        "Hickory"
-      ],
-      "primaryPitType": [
-        "Rotisserie"
-      ],
-      "mealsServed": [
-        "Lunch",
-        "Dinner"
-      ],
-      "drinks": [],
       "features": [
         "Outdoor Patio",
         "Does Not Sell Out",
@@ -1005,35 +978,55 @@
         "Curbside",
         "Online Ordering",
         "Veteran Owned/Operated"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/southernq_bbq",
+        "facebook": "https://www.facebook.com/SouthernQCatering",
+        "twitter": "https://twitter.com/southernq_",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/New-digs-Southern-Q-BBQ-opens-on-West-Richey-13727706.php",
+        "website": "https://www.southernqbbqcatering.com"
+      }
     },
     {
       "id": 89,
-      "slug": "roegels-barbecue-voss",
       "name": "Roegels Barbecue Co. – Voss",
-      "url": "https://houbbqguide.com/bbq-joints/roegels-barbecue-voss/",
-      "description": "Russell learned from one of the old-school greats – Roland Lindsey of Bodacious Bar-B-Q in northeast Texas – and continues inventing and improving to this day. Misty’s side dishes are legendary, from the bright and fresh Texas caviar to the boozy bourbon banana pudding. Roegels Barbecue was also one of the first joints in Houston to start making in-house pastrami. More recently they’ve begun working with North Carolina-style whole hog barbecue, acquiring a dedicated pit to cook the hog and transform it into excellent pulled pork.",
-      "excerpt": "Russell & Misty Roegels literally spent years paying dues as a franchise of a small Dallas-based chain before branching out in 2014, building this cozy and comfortable west-side spot into one of the best in Houston.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/roegels-barbecue-1.jpg",
+      "slug": "roegels-barbecue-voss",
       "address": "2223 S Voss Rd, Houston, TX 77057",
       "lat": 29.7451683,
       "lng": -95.5006815,
       "phone": null,
       "website": "https://roegelsbarbecue.com",
-      "links": {
-        "website": "https://roegelsbarbecue.com",
-        "facebook": "https://www.facebook.com/RoegelsBarbecue",
-        "twitter": "https://twitter.com/RoegelsBarbecue",
-        "instagram": "https://www.instagram.com/roegelsbarbecue",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Roegels-Barbecue-is-diversifying-its-menu-with-15631305.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/pastrami-reuben-roegels-barbecue/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/5fac8e36-roegels-barbecue-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/roegels-barbecue-voss/",
+      "excerpt": "Russell & Misty Roegels literally spent years paying dues as a franchise of a small Dallas-based chain before branching out in 2014, building this cozy and comfortable west-side spot into one of the best in Houston.",
+      "description": "Russell learned from one of the old-school greats – Roland Lindsey of Bodacious Bar-B-Q in northeast Texas – and continues inventing and improving to this day. Misty’s side dishes are legendary, from the bright and fresh Texas caviar to the boozy bourbon banana pudding. Roegels Barbecue was also one of the first joints in Houston to start making in-house pastrami. More recently they’ve begun working with North Carolina-style whole hog barbecue, acquiring a dedicated pit to cook the hog and transform it into excellent pulled pork.",
       "styles": [
         "Central Texas"
+      ],
+      "primaryPitType": [
+        "Offset Steel",
+        "Cabinet/Upright"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "West",
         "Galleria"
+      ],
+      "mealsServed": [
+        "Lunch"
+      ],
+      "drinks": [
+        "Beer"
+      ],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Stand-Alone"
       ],
       "daysOpen": [
         "Sunday",
@@ -1043,9 +1036,6 @@
         "Thursday",
         "Friday",
         "Saturday"
-      ],
-      "buildingType": [
-        "Stand-Alone"
       ],
       "accolades": [
         "2022 Houston Chronicle Top 100",
@@ -1055,88 +1045,49 @@
         "2019 HOUBBQ Festival",
         "2017 Texas Monthly Top 50"
       ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Offset Steel",
-        "Cabinet/Upright"
-      ],
-      "mealsServed": [
-        "Lunch"
-      ],
-      "drinks": [
-        "Beer"
-      ],
       "features": [
         "Outdoor Patio",
         "Sausage In-house",
         "Open Mondays",
         "Veteran Owned/Operated"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/roegelsbarbecue",
+        "facebook": "https://www.facebook.com/RoegelsBarbecue",
+        "twitter": "https://twitter.com/RoegelsBarbecue",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Roegels-Barbecue-is-diversifying-its-menu-with-15631305.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/pastrami-reuben-roegels-barbecue/",
+        "website": "https://roegelsbarbecue.com"
+      }
     },
     {
       "id": 87,
-      "slug": "rays-bbq-shack",
       "name": "Ray’s BBQ Shack",
-      "url": "https://houbbqguide.com/bbq-joints/rays-bbq-shack/",
-      "description": "Busch teamed up with Maxine Davis and Herb Taylor to open the original Ray’s BBQ Shack location, in a small corner of a gas station near the U. of Houston. The joint became a neighborhood favorite and picked up the mantle of the surrounding Third Ward being one of Houston’s traditional “barbecue wards.” Busch created a crowd-pleasing menu of old-school ETX-style favorites (housemade boudin, rib tips and smoked oxtails) and combined that with expertly-crafted CTX-style brisket. The ETX barbecue tradition of fried catfish and shrimp is well-represented here, with both items available daily.",
-      "excerpt": "In his off duty hours as a deputy sheriff, Ray Busch started cooking barbecue out of a trailer in nightclub parking lots, eventually graduating to a hugely successful brick-and-mortar joint in 2011.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/rays-bbq-shack-2.jpg",
+      "slug": "rays-bbq-shack",
       "address": "3929 Old Spanish Trail, Houston, TX 77021",
       "lat": 29.7028404,
       "lng": -95.356682,
       "phone": null,
       "website": "https://www.raysbbqshack.com",
-      "links": {
-        "website": "https://www.raysbbqshack.com",
-        "facebook": "https://www.facebook.com/RaysBBQShack",
-        "twitter": "https://twitter.com/RaysBBQ1",
-        "instagram": "https://www.instagram.com/raysbbqshack",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Ray-s-BBQ-Shack-continues-Third-Ward-traditions-15337048.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/rays-bbq-shack-2018/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/d7c59db3-rays-bbq-shack-2.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/rays-bbq-shack/",
+      "excerpt": "In his off duty hours as a deputy sheriff, Ray Busch started cooking barbecue out of a trailer in nightclub parking lots, eventually graduating to a hugely successful brick-and-mortar joint in 2011.",
+      "description": "Busch teamed up with Maxine Davis and Herb Taylor to open the original Ray’s BBQ Shack location, in a small corner of a gas station near the U. of Houston. The joint became a neighborhood favorite and picked up the mantle of the surrounding Third Ward being one of Houston’s traditional “barbecue wards.” Busch created a crowd-pleasing menu of old-school ETX-style favorites (housemade boudin, rib tips and smoked oxtails) and combined that with expertly-crafted CTX-style brisket. The ETX barbecue tradition of fried catfish and shrimp is well-represented here, with both items available daily.",
       "styles": [
         "Central Texas",
         "East Texas",
         "Combination"
       ],
-      "neighborhood": [
-        "South",
-        "Central",
-        "Third Ward"
-      ],
-      "daysOpen": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "buildingType": [
-        "Shopping Center"
-      ],
-      "accolades": [
-        "2019 Alison Cook Top 100",
-        "2023 HOUBBQ Festival",
-        "2019 HOUBBQ Festival"
-      ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
+      "primaryPitType": [
+        "Cabinet/Upright"
       ],
       "primaryWood": [
         "Oak"
       ],
-      "primaryPitType": [
-        "Cabinet/Upright"
+      "neighborhood": [
+        "South",
+        "Central",
+        "Third Ward"
       ],
       "mealsServed": [
         "Lunch",
@@ -1146,42 +1097,13 @@
         "Beer",
         "Wine"
       ],
-      "features": [
-        "Essential Houston",
-        "Open Mondays",
-        "Online Ordering"
-      ]
-    },
-    {
-      "id": 86,
-      "slug": "pizzitolas-bar-b-cue",
-      "name": "Pizzitola’s Bar-B-Cue",
-      "url": "https://houbbqguide.com/bbq-joints/pizzitolas-bar-b-cue/",
-      "description": "Those brick pits are a beast to work on, and Pizzitola’s has seen a few pitmasters over the years, though the current incarnation is putting out some of the best barbecue in a while. The brisket and pork ribs have gotten a bigger, meatier upgrade and the original dining room built in the 1960s still offers a window into the joint’s past with walls covered in old Davis family photos. Local entrepreneur Jerry Pizzitola bought the joint from the Davis family in the 1980s and although he is now retired and has since sold the restaurant, you’ll occasionally see him visiting with longtime customers at the Pizzitola’s Bar-B-Cue tables. Recent menu upgrades include brisket enchiladas and fried fish po-boys (Fridays only).",
-      "excerpt": "John & Lela Davis opened the iconic Shepherd Drive Bar-B-Q stand in 1934 and cooked on classic offset brick pits that the current incarnation – Pizzitola’s Bar-B-Cue – still uses today.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/02/pizzitolas-bar-b-cue-1.jpg",
-      "address": "1703 Shepherd Dr, Houston, TX 77007",
-      "lat": 29.7758328,
-      "lng": -95.4098923,
-      "phone": null,
-      "website": "https://pizzitolasbbq.com",
-      "links": {
-        "website": "https://pizzitolasbbq.com",
-        "facebook": "https://www.facebook.com/profile.php?id=100083040595534",
-        "twitter": "https://twitter.com/pizzitolasbbq",
-        "instagram": "https://www.instagram.com/pizzitolasbarbecue",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/barbecue/article/A-new-era-begins-at-Pizzitola-s-Bar-B-Cue-16003526.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/pizzitolas-2015/"
-      },
-      "styles": [
-        "Central Texas",
-        "East Texas",
-        "Combination",
-        "Old-School"
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
       ],
-      "neighborhood": [
-        "Central",
-        "Washington Ave"
+      "buildingType": [
+        "Shopping Center"
       ],
       "daysOpen": [
         "Monday",
@@ -1191,24 +1113,53 @@
         "Friday",
         "Saturday"
       ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
       "accolades": [
+        "2019 Alison Cook Top 100",
         "2023 HOUBBQ Festival",
-        "2022 HOUBBQ Festival",
         "2019 HOUBBQ Festival"
       ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
+      "features": [
+        "Essential Houston",
+        "Open Mondays",
+        "Online Ordering"
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/raysbbqshack",
+        "facebook": "https://www.facebook.com/RaysBBQShack",
+        "twitter": "https://twitter.com/RaysBBQ1",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Ray-s-BBQ-Shack-continues-Third-Ward-traditions-15337048.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/rays-bbq-shack-2018/",
+        "website": "https://www.raysbbqshack.com"
+      }
+    },
+    {
+      "id": 86,
+      "name": "Pizzitola’s Bar-B-Cue",
+      "slug": "pizzitolas-bar-b-cue",
+      "address": "1703 Shepherd Dr, Houston, TX 77007",
+      "lat": 29.7758328,
+      "lng": -95.4098923,
+      "phone": null,
+      "website": "https://pizzitolasbbq.com",
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/16167c6c-pizzitolas-bar-b-cue-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/pizzitolas-bar-b-cue/",
+      "excerpt": "John & Lela Davis opened the iconic Shepherd Drive Bar-B-Q stand in 1934 and cooked on classic offset brick pits that the current incarnation – Pizzitola’s Bar-B-Cue – still uses today.",
+      "description": "Those brick pits are a beast to work on, and Pizzitola’s has seen a few pitmasters over the years, though the current incarnation is putting out some of the best barbecue in a while. The brisket and pork ribs have gotten a bigger, meatier upgrade and the original dining room built in the 1960s still offers a window into the joint’s past with walls covered in old Davis family photos. Local entrepreneur Jerry Pizzitola bought the joint from the Davis family in the 1980s and although he is now retired and has since sold the restaurant, you’ll occasionally see him visiting with longtime customers at the Pizzitola’s Bar-B-Cue tables. Recent menu upgrades include brisket enchiladas and fried fish po-boys (Fridays only).",
+      "styles": [
+        "Central Texas",
+        "East Texas",
+        "Combination",
+        "Old-School"
+      ],
+      "primaryPitType": [
+        "Offset Brick"
       ],
       "primaryWood": [
         "Oak"
       ],
-      "primaryPitType": [
-        "Offset Brick"
+      "neighborhood": [
+        "Central",
+        "Washington Ave"
       ],
       "mealsServed": [
         "Lunch",
@@ -1217,66 +1168,67 @@
       "drinks": [
         "Beer"
       ],
-      "features": [
-        "Table Service",
-        "Essential Houston",
-        "Open Mondays"
-      ]
-    },
-    {
-      "id": 85,
-      "slug": "pinkertons-barbecue",
-      "name": "Pinkerton’s Barbecue",
-      "url": "https://houbbqguide.com/bbq-joints/pinkertons-barbecue/",
-      "description": "The bar lined with old family pictures, along with a dining room filled with communal picnic tables, does make the place feel like somebody’s living room, which is appropriate, because Pinkerton literally lived upstairs as he was getting the location off the ground. The big, David Klose-built offset barrel pits in the back produce excellent CTX-style brisket, and Pinkerton’s Barbecue is unique in Houston by offering both wet-mop and dry-rub style pork ribs. The side dishes are also exceptional – don’t miss the jalapeno-cheese rice and the smoked duck and sausage jambalaya.",
-      "excerpt": "Many Houston joints specialize in CTX-style barbecue, but few match the look-and-feel of those Austin-area places like Pinkerton’s Barbecue where classic salt-and-pepper brisket is combined with a full cocktail bar.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/pinkertons-barbecue-1.jpg",
-      "address": "1504 Airline Dr, Houston, TX 77009",
-      "lat": 29.7986725,
-      "lng": -95.3815009,
-      "phone": null,
-      "website": "https://www.pinkertonsbarbecue.com/location/houston/",
-      "links": {
-        "website": "https://www.pinkertonsbarbecue.com/location/houston/",
-        "facebook": "https://www.facebook.com/Pinkertonsbarbecue",
-        "twitter": "https://twitter.com/PinkertonsBBQ",
-        "instagram": "https://www.instagram.com/pinkertonsbbq",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Pinkerton-s-epitomizes-evolution-of-barbecue-in-10786392.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/pinkertons-barbecue-2017/"
-      },
-      "styles": [
-        "Central Texas"
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
       ],
-      "neighborhood": [
-        "Central",
-        "Greater Heights"
+      "buildingType": [
+        "Stand-Alone"
       ],
       "daysOpen": [
-        "Sunday",
+        "Monday",
         "Tuesday",
         "Wednesday",
         "Thursday",
         "Friday",
         "Saturday"
       ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
       "accolades": [
-        "2024 Michelin Bib Gourmand",
-        "2019 Alison Cook Top 100",
         "2023 HOUBBQ Festival",
         "2022 HOUBBQ Festival",
-        "2019 HOUBBQ Festival",
-        "2017 Texas Monthly Top 50"
+        "2019 HOUBBQ Festival"
       ],
-      "catering": [],
+      "features": [
+        "Table Service",
+        "Essential Houston",
+        "Open Mondays"
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/pizzitolasbarbecue",
+        "facebook": "https://www.facebook.com/profile.php?id=100083040595534",
+        "twitter": "https://twitter.com/pizzitolasbbq",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/barbecue/article/A-new-era-begins-at-Pizzitola-s-Bar-B-Cue-16003526.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/pizzitolas-2015/",
+        "website": "https://pizzitolasbbq.com"
+      }
+    },
+    {
+      "id": 85,
+      "name": "Pinkerton’s Barbecue",
+      "slug": "pinkertons-barbecue",
+      "address": "1504 Airline Dr, Houston, TX 77009",
+      "lat": 29.7986725,
+      "lng": -95.3815009,
+      "phone": null,
+      "website": "https://www.pinkertonsbarbecue.com/location/houston/",
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/350b745d-pinkertons-barbecue-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/pinkertons-barbecue/",
+      "excerpt": "Many Houston joints specialize in CTX-style barbecue, but few match the look-and-feel of those Austin-area places like Pinkerton’s Barbecue where classic salt-and-pepper brisket is combined with a full cocktail bar.",
+      "description": "The bar lined with old family pictures, along with a dining room filled with communal picnic tables, does make the place feel like somebody’s living room, which is appropriate, because Pinkerton literally lived upstairs as he was getting the location off the ground. The big, David Klose-built offset barrel pits in the back produce excellent CTX-style brisket, and Pinkerton’s Barbecue is unique in Houston by offering both wet-mop and dry-rub style pork ribs. The side dishes are also exceptional – don’t miss the jalapeno-cheese rice and the smoked duck and sausage jambalaya.",
+      "styles": [
+        "Central Texas"
+      ],
+      "primaryPitType": [
+        "Offset Steel"
+      ],
       "primaryWood": [
         "Oak",
         "Mesquite"
       ],
-      "primaryPitType": [
-        "Offset Steel"
+      "neighborhood": [
+        "Central",
+        "Greater Heights"
       ],
       "mealsServed": [
         "Lunch",
@@ -1287,41 +1239,79 @@
         "Wine",
         "Liquor"
       ],
+      "catering": [],
+      "buildingType": [
+        "Stand-Alone"
+      ],
+      "daysOpen": [
+        "Sunday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "accolades": [
+        "2024 Michelin Bib Gourmand",
+        "2019 Alison Cook Top 100",
+        "2023 HOUBBQ Festival",
+        "2022 HOUBBQ Festival",
+        "2019 HOUBBQ Festival",
+        "2017 Texas Monthly Top 50"
+      ],
       "features": [
         "Outdoor Patio",
         "Open Late",
         "Counter Cut"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/pinkertonsbbq",
+        "facebook": "https://www.facebook.com/Pinkertonsbarbecue",
+        "twitter": "https://twitter.com/PinkertonsBBQ",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Pinkerton-s-epitomizes-evolution-of-barbecue-in-10786392.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/pinkertons-barbecue-2017/",
+        "website": "https://www.pinkertonsbarbecue.com/location/houston/"
+      }
     },
     {
       "id": 80,
-      "slug": "lonestar-sausage-bbq",
       "name": "Lonestar Sausage & BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/lonestar-sausage-bbq/",
-      "description": "In a nondescript strip center south of the 1960 area, between a daycare center and a tire shop, this tiny space pushes out big flavors, including some of the best Polish/Czech kielbasa-style pork-and-beef sausage you will find, along with SETX-style boudin, and a throwback Beaumont-style beef juicy link. The rest of the trinity – brisket and ribs – are also worthy, and on Fridays he serves some of the best fried catfish and shrimp at any Houston barbecue joint. Rib tips are a special on Thursdays. There’s a small dining room inside and a big picnic table outside, but there’s plenty of take-away orders flowing through so feel free to get it to-go at Lonestar Sausage & BBQ.",
-      "excerpt": "Former U. of Houston football star Kevin Mason perfected the art of sausage-making in his kitchen while working as a sheriff deputy; after retiring, he went full time in the barbecue business in 2019.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/02/lonestar-sausage-bbq-1.jpg",
+      "slug": "lonestar-sausage-bbq",
       "address": "13712 Walters Rd Suite #140, Houston, TX 77014",
       "lat": 29.9799124,
       "lng": -95.4824775,
       "phone": null,
       "website": "https://lonestarsausagebbq.com",
-      "links": {
-        "website": "https://lonestarsausagebbq.com",
-        "facebook": "https://www.facebook.com/lonestarsausage",
-        "twitter": "https://twitter.com/lonestarsausage",
-        "instagram": "https://www.instagram.com/lonestar_sausage/",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Sausage-is-the-star-at-Lonestar-15483764.php"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/6adccfde-lonestar-sausage-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/lonestar-sausage-bbq/",
+      "excerpt": "Former U. of Houston football star Kevin Mason perfected the art of sausage-making in his kitchen while working as a sheriff deputy; after retiring, he went full time in the barbecue business in 2019.",
+      "description": "In a nondescript strip center south of the 1960 area, between a daycare center and a tire shop, this tiny space pushes out big flavors, including some of the best Polish/Czech kielbasa-style pork-and-beef sausage you will find, along with SETX-style boudin, and a throwback Beaumont-style beef juicy link. The rest of the trinity – brisket and ribs – are also worthy, and on Fridays he serves some of the best fried catfish and shrimp at any Houston barbecue joint. Rib tips are a special on Thursdays. There’s a small dining room inside and a big picnic table outside, but there’s plenty of take-away orders flowing through so feel free to get it to-go at Lonestar Sausage & BBQ.",
       "styles": [
         "Central Texas",
         "East Texas",
         "Combination"
       ],
+      "primaryPitType": [
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak"
+      ],
       "neighborhood": [
         "North",
         "Northwest",
         "1960"
+      ],
+      "mealsServed": [
+        "Lunch",
+        "Dinner"
+      ],
+      "drinks": [],
+      "catering": [
+        "Pickup"
+      ],
+      "buildingType": [
+        "Shopping Center"
       ],
       "daysOpen": [
         "Tuesday",
@@ -1330,58 +1320,58 @@
         "Friday",
         "Saturday"
       ],
-      "buildingType": [
-        "Shopping Center"
-      ],
       "accolades": [],
-      "catering": [
-        "Pickup"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Rotisserie"
-      ],
-      "mealsServed": [
-        "Lunch",
-        "Dinner"
-      ],
-      "drinks": [],
       "features": [
         "Easy Parking",
         "Sausage In-house",
         "Online Ordering"
       ],
-      "geoApprox": true
+      "links": {
+        "instagram": "https://www.instagram.com/lonestar_sausage/",
+        "facebook": "https://www.facebook.com/lonestarsausage",
+        "twitter": "https://twitter.com/lonestarsausage",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Sausage-is-the-star-at-Lonestar-15483764.php",
+        "website": "https://lonestarsausagebbq.com"
+      }
     },
     {
       "id": 79,
-      "slug": "lenox-bar-b-q",
       "name": "Lenox Bar-B-Q",
-      "url": "https://houbbqguide.com/bbq-joints/lenox-bar-b-q/",
-      "description": "You might be confused the first time you visit Lenox Bar-B-Q. When you enter the front door, you’re basically entering the kitchen. You go to the back of the building, past cooks making sides and carvers cutting briskets, place your order, and then wait around for the order to appear. Where’s the dining room? Look no further than literally in front of the building where the newly-built light-rail tracks required Mrok to tear down the front (dining room) of the structure several years ago. So it’s mostly a take-out joint and only open for lunch on weekdays, feeding neighborhood locals and plenty of construction workers from this booming area of Houston. Don’t expect Wagyu brisket or house-made sausage – this is strictly blue-collar grub with a side of Houston barbecue history. While you’re waiting for your order, try to get a peek into the well-seasoned pit room encasing the massive Oyler smokers – the tight quarters means it’s often compared to the engine room of a submarine.",
-      "excerpt": "In 1949 Leonard McNeill won a neighborhood café in a dice game and turned it into a legendary barbecue joint; today, owner Erik Mrok continues the tradition in this rapidly gentrifying area of the East End.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2020/12/lenox-bbq-1.jpg",
+      "slug": "lenox-bar-b-q",
       "address": "5420 Harrisburg Blvd, Houston, TX 77011",
       "lat": 29.7414231,
       "lng": -95.3212383,
       "phone": null,
       "website": "https://www.lenoxbbq.com",
-      "links": {
-        "website": "https://www.lenoxbbq.com",
-        "facebook": "https://www.facebook.com/LenoxBBQandCatering",
-        "instagram": "https://www.instagram.com/lenoxbbq",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Lenox-Bar-B-Q-changes-with-the-times-15365963.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/interview-erik-mrok-lenox-barbq/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/00ea63fd-lenox-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/lenox-bar-b-q/",
+      "excerpt": "In 1949 Leonard McNeill won a neighborhood café in a dice game and turned it into a legendary barbecue joint; today, owner Erik Mrok continues the tradition in this rapidly gentrifying area of the East End.",
+      "description": "You might be confused the first time you visit Lenox Bar-B-Q. When you enter the front door, you’re basically entering the kitchen. You go to the back of the building, past cooks making sides and carvers cutting briskets, place your order, and then wait around for the order to appear. Where’s the dining room? Look no further than literally in front of the building where the newly-built light-rail tracks required Mrok to tear down the front (dining room) of the structure several years ago. So it’s mostly a take-out joint and only open for lunch on weekdays, feeding neighborhood locals and plenty of construction workers from this booming area of Houston. Don’t expect Wagyu brisket or house-made sausage – this is strictly blue-collar grub with a side of Houston barbecue history. While you’re waiting for your order, try to get a peek into the well-seasoned pit room encasing the massive Oyler smokers – the tight quarters means it’s often compared to the engine room of a submarine.",
       "styles": [
         "East Texas",
         "Old-School"
       ],
+      "primaryPitType": [
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak"
+      ],
       "neighborhood": [
         "East",
         "East End"
+      ],
+      "mealsServed": [
+        "Lunch"
+      ],
+      "drinks": [],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Stand-Alone"
       ],
       "daysOpen": [
         "Monday",
@@ -1390,58 +1380,45 @@
         "Thursday",
         "Friday"
       ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
       "accolades": [
         "2023 HOUBBQ Festival",
         "2022 HOUBBQ Festival",
         "2019 HOUBBQ Festival"
       ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Rotisserie"
-      ],
-      "mealsServed": [
-        "Lunch"
-      ],
-      "drinks": [],
       "features": [
         "Essential Houston",
         "Open Mondays"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/lenoxbbq",
+        "facebook": "https://www.facebook.com/LenoxBBQandCatering",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Lenox-Bar-B-Q-changes-with-the-times-15365963.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/interview-erik-mrok-lenox-barbq/",
+        "website": "https://www.lenoxbbq.com"
+      }
     },
     {
       "id": 77,
-      "slug": "harlem-road-texas-bbq",
       "name": "Harlem Road Texas BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/harlem-road-texas-bbq/",
-      "description": "You wouldn’t know it from the outside, but this tiny, hand-built, barn-like structure off a desolate stretch of highway in one of Houston’s far-west suburbs produces some of the most exacting and creative barbecue in all of Texas. Every aspect of Harlem Road Texas BBQ, from the horse statue at the entrance to the custom-made picnic tables, is a reflection of Malekian’s never-ending curiosity and perfectionism. Like most contemporary craft barbecue joints, the exemplary smoked meats are accompanied by outstanding side dishes like mac-n-cheese and barbecue beans. And perhaps the greatest accompaniment is Malekian himself, clad in all-black and well-worn cowboy hat, visiting with guests and turning one-time visitors into life-long customers. Photo by Robert J. Lerma",
-      "excerpt": "Speaking seven different languages and having trained at Swiss culinary academies, Chef Ara Malekian is Houston’s global pitmaster combining the best of classic cooking with Texas barbecue.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/01/harlem-road-texas-bbq-1.jpg",
+      "slug": "harlem-road-texas-bbq",
       "address": "9823 Harlem Rd, Richmond, TX 77407",
       "lat": 29.6702425,
       "lng": -95.7148253,
       "phone": null,
       "website": "https://www.harlemroadtexasbbq.com",
-      "links": {
-        "website": "https://www.harlemroadtexasbbq.com",
-        "facebook": "https://www.facebook.com/harlemroadtexasbbq",
-        "twitter": "https://twitter.com/HARLEMRDBBQ",
-        "instagram": "https://www.instagram.com/harlemroadtexasbbq/",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Meet-Ara-Malekian-Houston-s-global-pitmaster-12546077.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/harlem-road-texas-bbq-2018/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/a644f883-harlem-road-texas-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/harlem-road-texas-bbq/",
+      "excerpt": "Speaking seven different languages and having trained at Swiss culinary academies, Chef Ara Malekian is Houston’s global pitmaster combining the best of classic cooking with Texas barbecue.",
+      "description": "You wouldn’t know it from the outside, but this tiny, hand-built, barn-like structure off a desolate stretch of highway in one of Houston’s far-west suburbs produces some of the most exacting and creative barbecue in all of Texas. Every aspect of Harlem Road Texas BBQ, from the horse statue at the entrance to the custom-made picnic tables, is a reflection of Malekian’s never-ending curiosity and perfectionism. Like most contemporary craft barbecue joints, the exemplary smoked meats are accompanied by outstanding side dishes like mac-n-cheese and barbecue beans. And perhaps the greatest accompaniment is Malekian himself, clad in all-black and well-worn cowboy hat, visiting with guests and turning one-time visitors into life-long customers. Photo by Robert J. Lerma",
       "styles": [
         "Central Texas",
         "Creative/Elevated"
+      ],
+      "primaryPitType": [
+        "Cabinet/Upright"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "South",
@@ -1450,15 +1427,23 @@
         "Katy Area",
         "Richmond"
       ],
+      "mealsServed": [
+        "Lunch",
+        "Dinner"
+      ],
+      "drinks": [],
+      "catering": [
+        "Pickup"
+      ],
+      "buildingType": [
+        "Stand-Alone"
+      ],
       "daysOpen": [
         "Sunday",
         "Wednesday",
         "Thursday",
         "Friday",
         "Saturday"
-      ],
-      "buildingType": [
-        "Stand-Alone"
       ],
       "accolades": [
         "2022 Houston Chronicle Top 100",
@@ -1467,53 +1452,62 @@
         "2019 HOUBBQ Festival",
         "2019 Texas Monthly New 25"
       ],
-      "catering": [
-        "Pickup"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Cabinet/Upright"
-      ],
-      "mealsServed": [
-        "Lunch",
-        "Dinner"
-      ],
-      "drinks": [],
       "features": [
         "Easy Parking",
         "Outdoor Patio",
         "Good for Groups",
         "Sausage In-house"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/harlemroadtexasbbq/",
+        "facebook": "https://www.facebook.com/harlemroadtexasbbq",
+        "twitter": "https://twitter.com/HARLEMRDBBQ",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Meet-Ara-Malekian-Houston-s-global-pitmaster-12546077.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/harlem-road-texas-bbq-2018/",
+        "website": "https://www.harlemroadtexasbbq.com"
+      }
     },
     {
       "id": 76,
-      "slug": "goode-co-barbeque-kirby",
       "name": "Goode Co. Barbeque – Kirby",
-      "url": "https://houbbqguide.com/bbq-joints/goode-co-barbeque-kirby/",
-      "description": "To understand the profound influence of the original Goode Co. Barbeque – Kirby, you must first understand the business of barbecue in the early 1970s. Most barbecue joints were associated with rural locations (Lockhart, Taylor) or specific neighborhoods in urban areas (Lockwood Inn in Fifth Ward). Most barbecue fans had their neighborhood place, and that’s where they went. Goode changed that by making barbecue a destination. Through savvy marketing (he originally worked as a graphic designer) and clever story-telling, he re-packaged the myth of Texas barbecue with creative culinary techniques, producing great smoked meats as well as delicious side dishes and desserts. As food became a greater part of American culture heading into the 1980s (food television shows and food sections in newspapers), Goode Co. was way ahead of the curve combining great food with engaging stories that reflected the unique culture of southeast Texas.",
-      "excerpt": "Jim Goode revolutionized the business of barbecue when he opened this barbecue joint-meets-ice house on a then-quiet stretch of Kirby Drive in 1977, combining CTX-style barbecue with a Houston flair.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/02/goode-co-bbq-kirby-5.jpg",
+      "slug": "goode-co-barbeque-kirby",
       "address": "5109 Kirby Dr, Houston, TX 77098",
       "lat": 29.7269684,
       "lng": -95.4182681,
       "phone": null,
       "website": "https://goodecompanybarbeque.com/locations/the-original/",
-      "links": {
-        "website": "https://goodecompanybarbeque.com/locations/the-original/",
-        "facebook": "https://www.facebook.com/GoodeCoBBQKirby",
-        "twitter": "https://twitter.com/GoodeCompany",
-        "instagram": "https://www.instagram.com/goodecobbq",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Levi-Goode-juggles-family-tradition-with-business-5654701.php"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/2846817e-goode-co-bbq-kirby-5.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/goode-co-barbeque-kirby/",
+      "excerpt": "Jim Goode revolutionized the business of barbecue when he opened this barbecue joint-meets-ice house on a then-quiet stretch of Kirby Drive in 1977, combining CTX-style barbecue with a Houston flair.",
+      "description": "To understand the profound influence of the original Goode Co. Barbeque – Kirby, you must first understand the business of barbecue in the early 1970s. Most barbecue joints were associated with rural locations (Lockhart, Taylor) or specific neighborhoods in urban areas (Lockwood Inn in Fifth Ward). Most barbecue fans had their neighborhood place, and that’s where they went. Goode changed that by making barbecue a destination. Through savvy marketing (he originally worked as a graphic designer) and clever story-telling, he re-packaged the myth of Texas barbecue with creative culinary techniques, producing great smoked meats as well as delicious side dishes and desserts. As food became a greater part of American culture heading into the 1980s (food television shows and food sections in newspapers), Goode Co. was way ahead of the curve combining great food with engaging stories that reflected the unique culture of southeast Texas.",
       "styles": [
         "Central Texas"
+      ],
+      "primaryPitType": [
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Mesquite"
       ],
       "neighborhood": [
         "Central",
         "West U"
+      ],
+      "mealsServed": [
+        "Dinner",
+        "Lunch"
+      ],
+      "drinks": [
+        "Beer",
+        "Wine"
+      ],
+      "catering": [
+        "Full Service",
+        "Delivery",
+        "Pickup"
+      ],
+      "buildingType": [
+        "Stand-Alone"
       ],
       "daysOpen": [
         "Saturday",
@@ -1524,29 +1518,7 @@
         "Monday",
         "Sunday"
       ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
       "accolades": [],
-      "catering": [
-        "Full Service",
-        "Delivery",
-        "Pickup"
-      ],
-      "primaryWood": [
-        "Mesquite"
-      ],
-      "primaryPitType": [
-        "Rotisserie"
-      ],
-      "mealsServed": [
-        "Dinner",
-        "Lunch"
-      ],
-      "drinks": [
-        "Beer",
-        "Wine"
-      ],
       "features": [
         "Counter Cut",
         "To-Go Counter",
@@ -1557,69 +1529,44 @@
         "Does Not Sell Out",
         "Outdoor Patio",
         "Easy Parking"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/goodecobbq",
+        "facebook": "https://www.facebook.com/GoodeCoBBQKirby",
+        "twitter": "https://twitter.com/GoodeCompany",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Levi-Goode-juggles-family-tradition-with-business-5654701.php",
+        "website": "https://goodecompanybarbeque.com/locations/the-original/"
+      }
     },
     {
       "id": 75,
-      "slug": "gatlins-bbq",
       "name": "Gatlin’s BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/gatlins-bbq/",
-      "description": "You might say the two major eras of Houston barbecue are “BG” and “AG,” that’s “Before Gatlin’s” and “After Gatlin’s.” Before the Gatlin family opened their tiny Gatlin’s BBQ storefront in the Heights, many prominent barbecue joints had transitioned to “set it and forget it,” push-button smokers that made barbecue easier but lost the essential smokiness for which Texas barbecue is famous. When Gatlin rolled his trailer-mounted, offset steel pit behind his little shop and started cooking on that, the game changed, as they say. Not only did he start using old-school techniques, Gatlin also offered a menu that combined the best of ETX and CTX-styles of barbecue, with salt-and-pepper brisket existing side-by-side with a dirty rice dish any Cajun would be proud of.",
-      "excerpt": "Greg Gatlin and family were the first to bring craft barbecue to diners in Houston when they opened in 2010. They now offer great barbecue plus comfort food favorites like burgers and tacos, as well as breakfast options.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2020/12/gatlins-bbq-1.jpg",
+      "slug": "gatlins-bbq",
       "address": "3510 Ella Blvd Bldg C Ste A, Houston, TX 77018",
       "lat": 29.8201364,
       "lng": -95.4290722,
       "phone": null,
       "website": "https://gatlinsbbq.com",
-      "links": {
-        "website": "https://gatlinsbbq.com",
-        "facebook": "https://www.facebook.com/Gatlins-BBQ-Catering-171975684012",
-        "twitter": "https://twitter.com/gatlinsbbq",
-        "instagram": "https://www.instagram.com/gatlinsbarbecue",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Gatlin-s-BBQ-pushing-the-envelope-with-new-menu-11733979.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/greg-gatlin-juneteenth-black-lives-matter-black-pitmaster-texas/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/4c6d0696-gatlins-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/gatlins-bbq/",
+      "excerpt": "Greg Gatlin and family were the first to bring craft barbecue to diners in Houston when they opened in 2010. They now offer great barbecue plus comfort food favorites like burgers and tacos, as well as breakfast options.",
+      "description": "You might say the two major eras of Houston barbecue are “BG” and “AG,” that’s “Before Gatlin’s” and “After Gatlin’s.” Before the Gatlin family opened their tiny Gatlin’s BBQ storefront in the Heights, many prominent barbecue joints had transitioned to “set it and forget it,” push-button smokers that made barbecue easier but lost the essential smokiness for which Texas barbecue is famous. When Gatlin rolled his trailer-mounted, offset steel pit behind his little shop and started cooking on that, the game changed, as they say. Not only did he start using old-school techniques, Gatlin also offered a menu that combined the best of ETX and CTX-styles of barbecue, with salt-and-pepper brisket existing side-by-side with a dirty rice dish any Cajun would be proud of.",
       "styles": [
         "Central Texas",
         "East Texas",
         "Combination",
         "Creative/Elevated"
       ],
-      "neighborhood": [
-        "Central",
-        "Greater Heights",
-        "Oak Forest"
-      ],
-      "daysOpen": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "buildingType": [
-        "Shopping Center"
-      ],
-      "accolades": [
-        "2022 Houston Chronicle Top 100",
-        "2019 Alison Cook Top 100",
-        "2023 HOUBBQ Festival",
-        "2022 HOUBBQ Festival",
-        "2019 HOUBBQ Festival",
-        "2017 Texas Monthly Top 50"
-      ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
+      "primaryPitType": [
+        "Rotisserie"
       ],
       "primaryWood": [
         "Oak"
       ],
-      "primaryPitType": [
-        "Rotisserie"
+      "neighborhood": [
+        "Central",
+        "Greater Heights",
+        "Oak Forest"
       ],
       "mealsServed": [
         "Breakfast",
@@ -1629,6 +1576,30 @@
       "drinks": [
         "Beer"
       ],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Shopping Center"
+      ],
+      "daysOpen": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "accolades": [
+        "2022 Houston Chronicle Top 100",
+        "2019 Alison Cook Top 100",
+        "2023 HOUBBQ Festival",
+        "2022 HOUBBQ Festival",
+        "2019 HOUBBQ Festival",
+        "2017 Texas Monthly Top 50"
+      ],
       "features": [
         "Easy Parking",
         "Essential Houston",
@@ -1636,36 +1607,53 @@
         "Open Mondays",
         "Private Room",
         "Online Ordering"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/gatlinsbarbecue",
+        "facebook": "https://www.facebook.com/Gatlins-BBQ-Catering-171975684012",
+        "twitter": "https://twitter.com/gatlinsbbq",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Gatlin-s-BBQ-pushing-the-envelope-with-new-menu-11733979.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/greg-gatlin-juneteenth-black-lives-matter-black-pitmaster-texas/",
+        "website": "https://gatlinsbbq.com"
+      }
     },
     {
       "id": 74,
-      "slug": "feges-bbq-greenway",
       "name": "Feges BBQ – Greenway",
-      "url": "https://houbbqguide.com/bbq-joints/feges-bbq-greenway/",
-      "description": "Texas barbecue has evolved rapidly over the last ten years, with a typical establishment transforming from a small, rural operation to elaborate urban barbecue outlets. The original location of Feges BBQ – Greenway is unique in its food court location in a sprawling campus of office building in central Houston. Indeed, co-owner and pitmaster Patrick calls the is location (tongue-in-cheek?) “the best food court barbecue in Texas”. In reality, it is some of the best barbecue in Texas, period, with Patrick’s long experience both as a pop-up purveyor as well as pit hand to some of the state’s best pitmasters and chefs. Erin’s side dishes and desserts are some of the best and most creative you will find, too. Photo by Robert J. Lerma.",
-      "excerpt": "Husband-and-wife team of Patrick & Erin Feges both come from fine-dining backgrounds and their classic and creative smoked meats and sides reflect an attention to detail as well as tradition.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2020/12/feges-bbq-1.jpg",
+      "slug": "feges-bbq-greenway",
       "address": "3, Greenway Plaza Suite C-210, Houston, TX 77046",
       "lat": 29.7308912,
       "lng": -95.4302733,
       "phone": null,
       "website": "https://fegesbbq.com/greenway-plaza/",
-      "links": {
-        "website": "https://fegesbbq.com/greenway-plaza/",
-        "facebook": "https://www.facebook.com/FegesBBQGreenwayPlaza",
-        "twitter": "https://twitter.com/FegesBBQ",
-        "instagram": "https://www.instagram.com/fegesbbq",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/reviews/article/Review-Feges-BBQ-in-Greenway-Plaza-full-of-12950986.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/feges-bbq-2018/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/74884227-feges-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/feges-bbq-greenway/",
+      "excerpt": "Husband-and-wife team of Patrick & Erin Feges both come from fine-dining backgrounds and their classic and creative smoked meats and sides reflect an attention to detail as well as tradition.",
+      "description": "Texas barbecue has evolved rapidly over the last ten years, with a typical establishment transforming from a small, rural operation to elaborate urban barbecue outlets. The original location of Feges BBQ – Greenway is unique in its food court location in a sprawling campus of office building in central Houston. Indeed, co-owner and pitmaster Patrick calls the is location (tongue-in-cheek?) “the best food court barbecue in Texas”. In reality, it is some of the best barbecue in Texas, period, with Patrick’s long experience both as a pop-up purveyor as well as pit hand to some of the state’s best pitmasters and chefs. Erin’s side dishes and desserts are some of the best and most creative you will find, too. Photo by Robert J. Lerma.",
       "styles": [
         "Central Texas",
         "Creative/Elevated"
       ],
+      "primaryPitType": [
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak"
+      ],
       "neighborhood": [
         "Central",
         "Greenway Plaza"
+      ],
+      "mealsServed": [
+        "Lunch"
+      ],
+      "drinks": [],
+      "catering": [
+        "Pickup",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Food Hall"
       ],
       "daysOpen": [
         "Monday",
@@ -1674,9 +1662,6 @@
         "Thursday",
         "Friday"
       ],
-      "buildingType": [
-        "Food Hall"
-      ],
       "accolades": [
         "2022 Houston Chronicle Top 100",
         "2019 Alison Cook Top 100",
@@ -1686,56 +1671,61 @@
         "2021 Texas Monthly Top 50",
         "2019 Texas Monthly New 25"
       ],
-      "catering": [
-        "Pickup",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Rotisserie"
-      ],
-      "mealsServed": [
-        "Lunch"
-      ],
-      "drinks": [],
       "features": [
         "Open Mondays",
         "Online Ordering",
         "Counter Cut",
         "Veteran Owned/Operated"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/fegesbbq",
+        "facebook": "https://www.facebook.com/FegesBBQGreenwayPlaza",
+        "twitter": "https://twitter.com/FegesBBQ",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/reviews/article/Review-Feges-BBQ-in-Greenway-Plaza-full-of-12950986.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/feges-bbq-2018/",
+        "website": "https://fegesbbq.com/greenway-plaza/"
+      }
     },
     {
       "id": 70,
-      "slug": "burns-original-bbq",
       "name": "Burns Original BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/burns-original-bbq/",
-      "description": "After Roy Burns passed away in 2009, his son Steve went into semi-retirement and son Gary opened his own barbecue joint on Antoine. Daughter Kathy Braden opened her own Burns BBQ outlet on North Shepherd. The original location on De Priest Street in Acres Homes fell into disrepair. In 2010 grandsons Cory and Carl Crawford trekked out to the boarded-up De Priest building and were shocked at the condition it was in. The brothers bought the De Priest location and brought it back up to code. Steve came in to cook, and other family members helped out as well. They reopened in 2012 as Burns Original BBQ. Gary rejoined the operation in 2013 and Kathy recently returned to the family business. Today, Burns Original BBQ is one of the most famous ETX-style barbecue joints in the city and is a fixture of their Acres Homes community.",
-      "excerpt": "Roy Burns Sr. sold barbecue by the side of the road in Acres Homes and built that into a neighborhood institution; his sons and grandsons have expanded the business into one of the most popular in the city.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2021/06/burns-original-bbq-5.jpg",
+      "slug": "burns-original-bbq",
       "address": "8307 De Priest St, Houston, TX 77088",
       "lat": 29.8767257,
       "lng": -95.4208022,
       "phone": null,
       "website": "https://burnsoriginalbbq.com",
-      "links": {
-        "website": "https://burnsoriginalbbq.com",
-        "facebook": "https://www.facebook.com/BurnsOriginalBbq",
-        "twitter": "https://twitter.com/burnsoriginalbb",
-        "instagram": "https://www.instagram.com/burnsoriginalbbq",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Barbecue-reunites-the-Burns-family-6514545.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/burns-original-bbq-2018/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/b79cef0f-burns-original-bbq-5.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/burns-original-bbq/",
+      "excerpt": "Roy Burns Sr. sold barbecue by the side of the road in Acres Homes and built that into a neighborhood institution; his sons and grandsons have expanded the business into one of the most popular in the city.",
+      "description": "After Roy Burns passed away in 2009, his son Steve went into semi-retirement and son Gary opened his own barbecue joint on Antoine. Daughter Kathy Braden opened her own Burns BBQ outlet on North Shepherd. The original location on De Priest Street in Acres Homes fell into disrepair. In 2010 grandsons Cory and Carl Crawford trekked out to the boarded-up De Priest building and were shocked at the condition it was in. The brothers bought the De Priest location and brought it back up to code. Steve came in to cook, and other family members helped out as well. They reopened in 2012 as Burns Original BBQ. Gary rejoined the operation in 2013 and Kathy recently returned to the family business. Today, Burns Original BBQ is one of the most famous ETX-style barbecue joints in the city and is a fixture of their Acres Homes community.",
       "styles": [
         "East Texas",
         "Old-School"
+      ],
+      "primaryPitType": [
+        "Offset Steel"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "North",
         "Northwest",
         "Acres Homes"
+      ],
+      "mealsServed": [
+        "Lunch",
+        "Dinner"
+      ],
+      "drinks": [],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Stand-Alone"
       ],
       "daysOpen": [
         "Tuesday",
@@ -1744,96 +1734,54 @@
         "Friday",
         "Saturday"
       ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
       "accolades": [
         "2023 HOUBBQ Festival",
         "2022 HOUBBQ Festival"
       ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Offset Steel"
-      ],
-      "mealsServed": [
-        "Lunch",
-        "Dinner"
-      ],
-      "drinks": [],
       "features": [
         "Outdoor Patio",
         "Does Not Sell Out",
         "Essential Houston"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/burnsoriginalbbq",
+        "facebook": "https://www.facebook.com/BurnsOriginalBbq",
+        "twitter": "https://twitter.com/burnsoriginalbb",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/Barbecue-reunites-the-Burns-family-6514545.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/burns-original-bbq-2018/",
+        "website": "https://burnsoriginalbbq.com"
+      }
     },
     {
       "id": 64,
-      "slug": "blood-bros-bbq",
       "name": "Blood Bros. BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/blood-bros-bbq/",
-      "description": "One of the best and worst features of Central Texas-style barbecue is its long-entrenched tradition. Many pitmasters who are just starting out are too intimidated to veer from the rules of the style, like salt-and-pepper brisket and dry-rubbed pork ribs. It can result in a sense of homogeneity when it comes to this predominant style of Texas barbecue. Fortunately, such intimidation has never been a problem with the Blood Bros. BBQ. Certainly pitmaster Hoang and the Wong brothers have a great reverence for the style, but have been nothing but fearless in combining their personal narratives growing up in Alief with Central Texas traditions. The result is a fascinating and sincere mash-up of the best of CTX with Houston’s Asian influences, techniques and ingredients.",
-      "excerpt": "Brothers Robin & Terry Wong and friend Quy Hoang met in the working class neighborhood of Alief and bring their Asian-American backgrounds to this menu of creative CTX-style barbecue.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2020/12/blood-bros-bbq-1.jpg",
+      "slug": "blood-bros-bbq",
       "address": "5425 Bellaire Blvd, Bellaire, TX 77401",
       "lat": 29.7055408,
       "lng": -95.4744395,
       "phone": null,
       "website": "http://bloodbrosbbq.com",
-      "links": {
-        "website": "http://bloodbrosbbq.com",
-        "facebook": "https://www.facebook.com/BloodBrosBBQ",
-        "twitter": "https://twitter.com/BloodBrosBBQ",
-        "instagram": "https://www.instagram.com/bloodbrosbbq",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/New-Blood-Bros-BBQ-continues-the-history-of-13480892.php",
-        "texasmonthly": "https://www.texasmonthly.com/bbq/blood-bros-bbq-2020/"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/f4a467ad-blood-bros-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/blood-bros-bbq/",
+      "excerpt": "Brothers Robin & Terry Wong and friend Quy Hoang met in the working class neighborhood of Alief and bring their Asian-American backgrounds to this menu of creative CTX-style barbecue.",
+      "description": "One of the best and worst features of Central Texas-style barbecue is its long-entrenched tradition. Many pitmasters who are just starting out are too intimidated to veer from the rules of the style, like salt-and-pepper brisket and dry-rubbed pork ribs. It can result in a sense of homogeneity when it comes to this predominant style of Texas barbecue. Fortunately, such intimidation has never been a problem with the Blood Bros. BBQ. Certainly pitmaster Hoang and the Wong brothers have a great reverence for the style, but have been nothing but fearless in combining their personal narratives growing up in Alief with Central Texas traditions. The result is a fascinating and sincere mash-up of the best of CTX with Houston’s Asian influences, techniques and ingredients.",
       "styles": [
         "Central Texas",
         "Creative/Elevated",
         "Asian-Influenced"
       ],
-      "neighborhood": [
-        "South",
-        "Southwest",
-        "Bellaire"
-      ],
-      "daysOpen": [
-        "Sunday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "buildingType": [
-        "Shopping Center"
-      ],
-      "accolades": [
-        "2024 Michelin Bib Gourmand",
-        "2022 Houston Chronicle Top 100",
-        "2019 Alison Cook Top 100",
-        "2023 HOUBBQ Festival",
-        "2022 HOUBBQ Festival",
-        "2019 HOUBBQ Festival",
-        "2021 Texas Monthly Top 50",
-        "2019 Texas Monthly New 25"
-      ],
-      "catering": [
-        "Pickup"
+      "primaryPitType": [
+        "Offset Steel",
+        "Cabinet/Upright"
       ],
       "primaryWood": [
         "Oak",
         "Pecan"
       ],
-      "primaryPitType": [
-        "Offset Steel",
-        "Cabinet/Upright"
+      "neighborhood": [
+        "South",
+        "Southwest",
+        "Bellaire"
       ],
       "mealsServed": [
         "Lunch"
@@ -1843,40 +1791,87 @@
         "Wine",
         "Liquor"
       ],
+      "catering": [
+        "Pickup"
+      ],
+      "buildingType": [
+        "Shopping Center"
+      ],
+      "daysOpen": [
+        "Sunday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "accolades": [
+        "2024 Michelin Bib Gourmand",
+        "2022 Houston Chronicle Top 100",
+        "2019 Alison Cook Top 100",
+        "2023 HOUBBQ Festival",
+        "2022 HOUBBQ Festival",
+        "2019 HOUBBQ Festival",
+        "2021 Texas Monthly Top 50",
+        "2019 Texas Monthly New 25"
+      ],
       "features": [
         "Outdoor Patio",
         "Essential Houston",
         "Sausage In-house",
         "Counter Cut"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/bloodbrosbbq",
+        "facebook": "https://www.facebook.com/BloodBrosBBQ",
+        "twitter": "https://twitter.com/BloodBrosBBQ",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/New-Blood-Bros-BBQ-continues-the-history-of-13480892.php",
+        "texasmonthly": "https://www.texasmonthly.com/bbq/blood-bros-bbq-2020/",
+        "website": "http://bloodbrosbbq.com"
+      }
     },
     {
       "id": 59,
-      "slug": "killens-barbecue-pearland",
       "name": "Killen’s Barbecue – Pearland",
-      "url": "https://houbbqguide.com/bbq-joints/killens-barbecue-pearland/",
-      "description": "Killen’s long resume starts many years ago with a barbecue joint in Pearland (Killen’s Kountry BBQ) and eventually leads to a formal culinary education and the establishment of a Houston-area institution – Killen’s Steakhouse, originally located in an unassuming building on a stretch of road near Pearland proper. Killen went back to his roots eventually, hosting pop-up barbecue events at the steakhouse before purchasing an old, disused Pearland I.S.D. cafeteria and transforming it into a destination joint for barbecue fans in the Houston area and beyond. The original Killen’s Barbecue – Pearland location has a diverse collection of pits in the back including 1000 gallon Moberg offset barrel pits and a couple of Oyler rotisseries.",
-      "excerpt": "One of the Houston area’s most accomplished pitmasters, Ronnie Killen expanded beyond his steakhouse empire to open this classic Central Texas-style barbecue joint in his hometown of Pearland.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2020/12/killens-barbecue-pearland-1.jpg",
+      "slug": "killens-barbecue-pearland",
       "address": "3613 E Broadway St, Pearland, TX 77581",
       "lat": 29.5640882,
       "lng": -95.2822433,
       "phone": null,
       "website": "https://www.killensbarbecue.com",
-      "links": {
-        "website": "https://www.killensbarbecue.com",
-        "facebook": "https://www.facebook.com/KillensBbq",
-        "twitter": "https://twitter.com/killensbbq",
-        "instagram": "https://www.instagram.com/killensbbq",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/At-Killen-Mueller-pop-up-a-sense-of-barbecue-15300731.php"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/029832f8-killens-barbecue-pearland-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/killens-barbecue-pearland/",
+      "excerpt": "One of the Houston area’s most accomplished pitmasters, Ronnie Killen expanded beyond his steakhouse empire to open this classic Central Texas-style barbecue joint in his hometown of Pearland.",
+      "description": "Killen’s long resume starts many years ago with a barbecue joint in Pearland (Killen’s Kountry BBQ) and eventually leads to a formal culinary education and the establishment of a Houston-area institution – Killen’s Steakhouse, originally located in an unassuming building on a stretch of road near Pearland proper. Killen went back to his roots eventually, hosting pop-up barbecue events at the steakhouse before purchasing an old, disused Pearland I.S.D. cafeteria and transforming it into a destination joint for barbecue fans in the Houston area and beyond. The original Killen’s Barbecue – Pearland location has a diverse collection of pits in the back including 1000 gallon Moberg offset barrel pits and a couple of Oyler rotisseries.",
       "styles": [
         "Central Texas"
+      ],
+      "primaryPitType": [
+        "Offset Steel",
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "South",
         "Southeast",
         "Pearland"
+      ],
+      "mealsServed": [
+        "Lunch",
+        "Dinner"
+      ],
+      "drinks": [
+        "Beer",
+        "Wine"
+      ],
+      "catering": [
+        "Pickup",
+        "Delivery",
+        "Full Service"
+      ],
+      "buildingType": [
+        "Stand-Alone"
       ],
       "daysOpen": [
         "Sunday",
@@ -1885,9 +1880,6 @@
         "Thursday",
         "Friday",
         "Saturday"
-      ],
-      "buildingType": [
-        "Stand-Alone"
       ],
       "accolades": [
         "2024 Michelin Bib Gourmand",
@@ -1898,91 +1890,47 @@
         "2021 Texas Monthly Top 50",
         "2017 Texas Monthly Top 50"
       ],
-      "catering": [
-        "Pickup",
-        "Delivery",
-        "Full Service"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Offset Steel",
-        "Rotisserie"
-      ],
-      "mealsServed": [
-        "Lunch",
-        "Dinner"
-      ],
-      "drinks": [
-        "Beer",
-        "Wine"
-      ],
       "features": [
         "Outdoor Patio",
         "Good for Groups",
         "Sausage In-house",
         "Online Ordering",
         "Counter Cut"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/killensbbq",
+        "facebook": "https://www.facebook.com/KillensBbq",
+        "twitter": "https://twitter.com/killensbbq",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/bbq/article/At-Killen-Mueller-pop-up-a-sense-of-barbecue-15300731.php",
+        "website": "https://www.killensbarbecue.com"
+      }
     },
     {
       "id": 49,
-      "slug": "the-pit-room",
       "name": "The Pit Room",
-      "url": "https://houbbqguide.com/bbq-joints/the-pit-room/",
-      "description": "It wasn’t easy though. Building a legit barbecue joint in central Houston is made particularly difficult by the city, mostly due to the unusual requirement to have a full hood over the smokers. Indeed, Sambrooks was one of the first to implement this, with two 500 gallon barrel smokers covered by very expensive exhaust systems. The hard work and investment have paid off big time, with The Pit Room constantly packed with inner-loopers and barbecue tourists alike. With the acquisition of The Patio bar next door, there’s a huge outdoor seating area as well as full bar to complement the outstanding CTX-style barbecue.",
-      "excerpt": "Michael Sambrooks brought craft barbecue to the eclectic Montrose neighborhood in 2016, becoming one of the best joints in the state with a similarly eclectic menu of tacos and other dishes.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2020/12/the-pit-room-1.jpg",
+      "slug": "the-pit-room",
       "address": "1201 Richmond Ave, Houston, TX 77006",
       "lat": 29.7341915,
       "lng": -95.3942038,
       "phone": null,
       "website": "https://thepitroombbq.com",
-      "links": {
-        "website": "https://thepitroombbq.com",
-        "facebook": "https://www.facebook.com/ThePitRoom",
-        "twitter": "https://twitter.com/thepitroombbq",
-        "instagram": "https://www.instagram.com/thepitroom",
-        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/reviews/article/Review-The-magic-s-in-the-details-at-The-Pit-10880650.php"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/aafe042c-the-pit-room-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/the-pit-room/",
+      "excerpt": "Michael Sambrooks brought craft barbecue to the eclectic Montrose neighborhood in 2016, becoming one of the best joints in the state with a similarly eclectic menu of tacos and other dishes.",
+      "description": "It wasn’t easy though. Building a legit barbecue joint in central Houston is made particularly difficult by the city, mostly due to the unusual requirement to have a full hood over the smokers. Indeed, Sambrooks was one of the first to implement this, with two 500 gallon barrel smokers covered by very expensive exhaust systems. The hard work and investment have paid off big time, with The Pit Room constantly packed with inner-loopers and barbecue tourists alike. With the acquisition of The Patio bar next door, there’s a huge outdoor seating area as well as full bar to complement the outstanding CTX-style barbecue.",
       "styles": [
         "Tex-Mex-Influenced",
         "Central Texas"
       ],
-      "neighborhood": [
-        "Central",
-        "Montrose"
-      ],
-      "daysOpen": [
-        "Saturday",
-        "Friday",
-        "Thursday",
-        "Wednesday",
-        "Tuesday",
-        "Monday",
-        "Sunday"
-      ],
-      "buildingType": [
-        "Stand-Alone"
-      ],
-      "accolades": [
-        "2024 Michelin Bib Gourmand",
-        "2023 HOUBBQ Festival",
-        "2022 HOUBBQ Festival",
-        "2019 HOUBBQ Festival",
-        "2017 Texas Monthly Top 50"
-      ],
-      "catering": [
-        "Full Service",
-        "Delivery",
-        "Pickup"
+      "primaryPitType": [
+        "Offset Steel"
       ],
       "primaryWood": [
         "Oak"
       ],
-      "primaryPitType": [
-        "Offset Steel"
+      "neighborhood": [
+        "Central",
+        "Montrose"
       ],
       "mealsServed": [
         "Dinner",
@@ -1994,6 +1942,30 @@
         "Wine",
         "Liquor"
       ],
+      "catering": [
+        "Full Service",
+        "Delivery",
+        "Pickup"
+      ],
+      "buildingType": [
+        "Stand-Alone"
+      ],
+      "daysOpen": [
+        "Saturday",
+        "Friday",
+        "Thursday",
+        "Wednesday",
+        "Tuesday",
+        "Monday",
+        "Sunday"
+      ],
+      "accolades": [
+        "2024 Michelin Bib Gourmand",
+        "2023 HOUBBQ Festival",
+        "2022 HOUBBQ Festival",
+        "2019 HOUBBQ Festival",
+        "2017 Texas Monthly Top 50"
+      ],
       "features": [
         "Counter Cut",
         "Online Ordering",
@@ -2001,29 +1973,36 @@
         "Sausage In-house",
         "Good for Groups",
         "Outdoor Patio"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/thepitroom",
+        "facebook": "https://www.facebook.com/ThePitRoom",
+        "twitter": "https://twitter.com/thepitroombbq",
+        "chronicle": "https://www.houstonchronicle.com/entertainment/restaurants-bars/reviews/article/Review-The-magic-s-in-the-details-at-The-Pit-10880650.php",
+        "website": "https://thepitroombbq.com"
+      }
     },
     {
       "id": 41,
-      "slug": "corkscrew-bbq",
       "name": "CorkScrew BBQ",
-      "url": "https://houbbqguide.com/bbq-joints/corkscrew-bbq/",
-      "description": "Buckman was working as an AT&T lineman when he first started cooking in his backyard and getting those famous words of encouragement from friends and family: you should open a barbecue restaurant! One thing led to another and he and Nichole opened the cult-favorite CorkScrew BBQ trailer on the border of Spring and The Woodlands north of Houston. The Buckman’s deep business and family connections in the area alerted them to a restaurant in Old Town Spring where the owner was retiring and they bought the site and opened their brick-and-mortar dream location in 2015. Buckman installed two Oyler rotisseries that crank out relentlessly great and consistent barbecue on a daily basis. Nichole’s various flavors of cobbler are a can’t-miss too.",
-      "excerpt": "Will & Nichole Buckman starting cooking barbecue for family & friends in their backyard in 2010. Now they have a brick-and-mortar location in Old Town Spring and some of the best ‘cue in Texas.",
-      "image": "https://houbbqguide.com/wp-content/uploads/2020/12/corkscrew-bbq-1.jpg",
+      "slug": "corkscrew-bbq",
       "address": "26608 Keith St, Spring, TX 77373",
       "lat": 30.0806765,
       "lng": -95.420013,
       "phone": null,
       "website": "https://www.corkscreworders.com",
-      "links": {
-        "website": "https://www.corkscreworders.com",
-        "facebook": "https://www.facebook.com/csbbq24930",
-        "twitter": "https://twitter.com/corkscrewbbq",
-        "instagram": "https://www.instagram.com/corkscrewbbq"
-      },
+      "image": "https://compo-cf.github.io/houbbq-website/assets/img/f324327b-corkscrew-bbq-1.jpg",
+      "url": "https://houbbqguide.com/bbq-joints/corkscrew-bbq/",
+      "excerpt": "Will & Nichole Buckman starting cooking barbecue for family & friends in their backyard in 2010. Now they have a brick-and-mortar location in Old Town Spring and some of the best ‘cue in Texas.",
+      "description": "Buckman was working as an AT&T lineman when he first started cooking in his backyard and getting those famous words of encouragement from friends and family: you should open a barbecue restaurant! One thing led to another and he and Nichole opened the cult-favorite CorkScrew BBQ trailer on the border of Spring and The Woodlands north of Houston. The Buckman’s deep business and family connections in the area alerted them to a restaurant in Old Town Spring where the owner was retiring and they bought the site and opened their brick-and-mortar dream location in 2015. Buckman installed two Oyler rotisseries that crank out relentlessly great and consistent barbecue on a daily basis. Nichole’s various flavors of cobbler are a can’t-miss too.",
       "styles": [
         "Central Texas"
+      ],
+      "primaryPitType": [
+        "Rotisserie"
+      ],
+      "primaryWood": [
+        "Oak"
       ],
       "neighborhood": [
         "North",
@@ -2031,14 +2010,24 @@
         "Spring",
         "The Woodlands Area"
       ],
+      "mealsServed": [
+        "Lunch"
+      ],
+      "drinks": [
+        "Beer",
+        "Wine"
+      ],
+      "catering": [
+        "Pickup"
+      ],
+      "buildingType": [
+        "Stand-Alone"
+      ],
       "daysOpen": [
         "Wednesday",
         "Thursday",
         "Friday",
         "Saturday"
-      ],
-      "buildingType": [
-        "Stand-Alone"
       ],
       "accolades": [
         "2024 Michelin One Star",
@@ -2050,29 +2039,19 @@
         "2021 Texas Monthly Top 50",
         "2017 Texas Monthly Top 50"
       ],
-      "catering": [
-        "Pickup"
-      ],
-      "primaryWood": [
-        "Oak"
-      ],
-      "primaryPitType": [
-        "Rotisserie"
-      ],
-      "mealsServed": [
-        "Lunch"
-      ],
-      "drinks": [
-        "Beer",
-        "Wine"
-      ],
       "features": [
         "Online Ordering",
         "Curbside",
         "All-Natural Beef",
         "Good for Groups",
         "Outdoor Patio"
-      ]
+      ],
+      "links": {
+        "instagram": "https://www.instagram.com/corkscrewbbq",
+        "facebook": "https://www.facebook.com/csbbq24930",
+        "twitter": "https://twitter.com/corkscrewbbq",
+        "website": "https://www.corkscreworders.com"
+      }
     }
   ],
   "events": [
