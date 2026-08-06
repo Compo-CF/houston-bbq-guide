@@ -64,7 +64,10 @@ final class JointStore {
     }
 
     private func apply(_ file: JointsFile) {
-        joints = file.joints
+        // Randomize the joint order on each load (launch / refresh) so the Finder
+        // surfaces different joints first each time, like the website. Distance
+        // sorting in sorted() still takes over when the user's location is known.
+        joints = file.joints.shuffled()
         taxonomies = file.taxonomies
         events = file.events ?? []
     }
