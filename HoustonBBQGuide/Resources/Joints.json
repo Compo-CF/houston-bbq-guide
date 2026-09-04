@@ -1,6 +1,6 @@
 {
   "source": "google-sheet",
-  "count": 27,
+  "count": 30,
   "taxonomies": {
     "styles": [
       "East Texas",
@@ -59,7 +59,8 @@
       "Bellaire",
       "Pearland",
       "Montrose",
-      "Spring"
+      "Spring",
+      "Heights"
     ],
     "meals-served": [
       "Lunch",
@@ -102,7 +103,8 @@
       "2017 Texas Monthly Top 50",
       "2024 Michelin Bib Gourmand",
       "2019 Texas Monthly New 25",
-      "2024 Michelin One Star"
+      "2024 Michelin One Star",
+      "2025 Texas Monthly Top 50"
     ],
     "features": [
       "Easy Parking",
@@ -2052,6 +2054,147 @@
         "twitter": "https://twitter.com/corkscrewbbq",
         "website": "https://www.corkscreworders.com"
       }
+    },
+    {
+      "id": 9001,
+      "slug": "j-bar-m-barbecue",
+      "name": "J-Bar-M Barbecue",
+      "url": "https://www.jbarmbbq.com",
+      "description": "A craft barbecue joint in Houston's East End turning out Central Texas–style brisket and house-made sausage from big offset pits. Named to Texas Monthly's Top 50 in 2025.",
+      "excerpt": "",
+      "image": null,
+      "address": "2201 Leeland St, Houston, TX 77003",
+      "lat": 29.7462261,
+      "lng": -95.3576633,
+      "phone": null,
+      "website": "https://www.jbarmbbq.com",
+      "links": {
+        "website": "https://www.jbarmbbq.com"
+      },
+      "styles": [
+        "Central Texas"
+      ],
+      "neighborhood": [
+        "East",
+        "East End"
+      ],
+      "daysOpen": [],
+      "buildingType": [
+        "Stand-Alone"
+      ],
+      "accolades": [
+        "2025 Texas Monthly Top 50"
+      ],
+      "catering": [
+        "Pickup"
+      ],
+      "primaryWood": [
+        "Oak"
+      ],
+      "primaryPitType": [
+        "Offset Steel"
+      ],
+      "mealsServed": [
+        "Lunch"
+      ],
+      "drinks": [
+        "Beer"
+      ],
+      "features": []
+    },
+    {
+      "id": 9002,
+      "slug": "loro-heights",
+      "name": "Loro Heights",
+      "url": "https://www.loroeats.com",
+      "description": "An Asian smokehouse from Franklin Barbecue's Aaron Franklin and Uchi's Tyson Cole, blending Central Texas smoke with Southeast Asian flavors in the Heights.",
+      "excerpt": "",
+      "image": null,
+      "address": "1001 W 11th St, Houston, TX 77008",
+      "lat": 29.7907854,
+      "lng": -95.4073225,
+      "phone": null,
+      "website": "https://www.loroeats.com",
+      "links": {
+        "website": "https://www.loroeats.com"
+      },
+      "styles": [
+        "Asian-Influenced",
+        "Creative/Elevated"
+      ],
+      "neighborhood": [
+        "Northwest",
+        "Heights"
+      ],
+      "daysOpen": [],
+      "buildingType": [
+        "Stand-Alone"
+      ],
+      "accolades": [],
+      "catering": [
+        "Pickup"
+      ],
+      "primaryWood": [
+        "Oak"
+      ],
+      "primaryPitType": [
+        "Offset Steel"
+      ],
+      "mealsServed": [
+        "Lunch",
+        "Dinner"
+      ],
+      "drinks": [
+        "Beer",
+        "Wine",
+        "Liquor"
+      ],
+      "features": [
+        "Outdoor Patio",
+        "Table Service"
+      ]
+    },
+    {
+      "id": 9003,
+      "slug": "fainmous-bbq",
+      "name": "Fainmous BBQ",
+      "url": "",
+      "description": "A Houston barbecue spot serving East Texas–style smoked meats and classic sides near Washington Avenue.",
+      "excerpt": "",
+      "image": null,
+      "address": "1201 Oliver St, Houston, TX 77007",
+      "lat": 29.7708078,
+      "lng": -95.3863641,
+      "phone": null,
+      "website": null,
+      "links": {},
+      "styles": [
+        "East Texas",
+        "Combination"
+      ],
+      "neighborhood": [
+        "West",
+        "Washington Ave"
+      ],
+      "daysOpen": [],
+      "buildingType": [
+        "Stand-Alone"
+      ],
+      "accolades": [],
+      "catering": [
+        "Pickup"
+      ],
+      "primaryWood": [
+        "Oak"
+      ],
+      "primaryPitType": [
+        "Offset Steel"
+      ],
+      "mealsServed": [
+        "Lunch"
+      ],
+      "drinks": [],
+      "features": []
     }
   ],
   "events": [
