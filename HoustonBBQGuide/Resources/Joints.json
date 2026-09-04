@@ -1,6 +1,6 @@
 {
   "source": "google-sheet",
-  "count": 30,
+  "count": 32,
   "taxonomies": {
     "styles": [
       "East Texas",
@@ -60,7 +60,9 @@
       "Pearland",
       "Montrose",
       "Spring",
-      "Heights"
+      "Heights",
+      "Near Northside",
+      "Magnolia"
     ],
     "meals-served": [
       "Lunch",
@@ -82,7 +84,8 @@
       "Shopping Center",
       "Stand-Alone",
       "Food Market",
-      "Food Hall"
+      "Food Hall",
+      "Truck/Trailer"
     ],
     "days-open": [
       "Tuesday",
@@ -2195,6 +2198,104 @@
       ],
       "drinks": [],
       "features": []
+    },
+    {
+      "id": 9004,
+      "slug": "khoi-barbecue",
+      "name": "Khói Barbecue",
+      "url": "",
+      "description": "A Vietnamese-Texan barbecue pop-up in the Near Northside pairing Central Texas smoke with Vietnamese flavors — among the most acclaimed pits in the country. Weekends only.",
+      "excerpt": "",
+      "image": null,
+      "address": "2911 Hardy St, Houston, TX 77009",
+      "lat": 29.7878072,
+      "lng": -95.3522852,
+      "phone": "(832) 436-7799",
+      "website": null,
+      "links": {},
+      "styles": [
+        "Asian-Influenced",
+        "Central Texas"
+      ],
+      "neighborhood": [
+        "North",
+        "Near Northside"
+      ],
+      "daysOpen": [
+        "Saturday",
+        "Sunday"
+      ],
+      "buildingType": [
+        "Truck/Trailer"
+      ],
+      "accolades": [],
+      "catering": [],
+      "primaryWood": [
+        "Oak"
+      ],
+      "primaryPitType": [
+        "Offset Steel"
+      ],
+      "mealsServed": [
+        "Lunch"
+      ],
+      "drinks": [],
+      "features": [
+        "Outdoor Patio"
+      ]
+    },
+    {
+      "id": 9005,
+      "slug": "reveille-barbecue-co",
+      "name": "Reveille Barbecue Co.",
+      "url": "https://www.reveillebbq.com",
+      "description": "Handcrafted Central Texas barbecue in Magnolia, known for smoky brisket and massive beef ribs.",
+      "excerpt": "",
+      "image": null,
+      "address": "415 Magnolia Blvd, Magnolia, TX 77355",
+      "lat": 30.2097,
+      "lng": -95.7508,
+      "phone": "(832) 616-6900",
+      "website": "https://www.reveillebbq.com",
+      "links": {
+        "website": "https://www.reveillebbq.com"
+      },
+      "styles": [
+        "Central Texas"
+      ],
+      "neighborhood": [
+        "North",
+        "Magnolia"
+      ],
+      "daysOpen": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "buildingType": [
+        "Stand-Alone"
+      ],
+      "accolades": [],
+      "catering": [
+        "Pickup"
+      ],
+      "primaryWood": [
+        "Oak"
+      ],
+      "primaryPitType": [
+        "Offset Steel"
+      ],
+      "mealsServed": [
+        "Lunch",
+        "Dinner"
+      ],
+      "drinks": [
+        "Beer"
+      ],
+      "features": [
+        "Outdoor Patio"
+      ]
     }
   ],
   "events": [
