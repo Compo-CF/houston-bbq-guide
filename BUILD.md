@@ -120,7 +120,7 @@ Redeploy rules with:
 firebase deploy --only firestore:rules --project houston-bbq-guide
 ```
 
-### App Check — app side done, console side and enforcement outstanding
+### App Check — DONE AND ENFORCED 2026-10-07
 
 `GoogleService-Info.plist` IS committed, so a fresh clone builds the working
 form with no manual copying.
@@ -130,24 +130,23 @@ The app now sets an App Check provider factory before `FirebaseApp.configure()`
 factory must be set before configure(), or the first request leaves without a
 token.**
 
-Enforcement is deliberately still OFF, and turning it on early is the one way
-to break this:
+Enforced on Cloud Firestore. Verified rather than assumed: the same
+well-formed write that succeeded before enforcement now comes back 403 from a
+plain HTTPS client holding the public key. The config in the committed plist
+is no longer worth anything on its own.
 
-1. ~~Register the iOS app under **App Check** with the **App Attest**
-   provider.~~ **DONE 2026-10-07** — App Attest, Team ID `7H5T5AR2X5`, token
-   TTL 1 hour. App Attest rather than DeviceCheck because DeviceCheck wants a
-   `.p8` key generated in the Apple Developer portal and App Attest covers
-   every device that can run an iOS 17 app.
-2. **Ship a build with App Check in it** (anything from commit 9520ac6 on).
-3. Watch the App Check metrics until verified requests show up — the console
-   reports verified vs unverified traffic while unenforced.
-4. **Only then enforce Firestore.** Enforcing before a build is out in the
-   wild rejects the real app along with the bots, and the form silently stops
-   working for everyone.
+Enforcing before any build shipped was safe here only because **no build in
+the wild writes to Firestore** — the submission form does not exist before
+commit 666d149, so there were no clients to lock out. Do not read this as a
+general pattern: enforcing on a service real clients already use will reject
+them until a build carrying App Check reaches everyone.
 
-Until step 4, the public config in the committed plist is worth something to a
-stranger: the rules cap what a write may contain but cannot say who is writing,
-so the exposure is a spammed queue. That window closes at enforcement.
+**A rejected write and a rejected rule look identical from the client** — both
+are `403 PERMISSION_DENIED`, "Missing or insufficient permissions". The only
+way to tell them apart is App Check -> APIs, which counts verified vs
+unverified requests. Check there first when the form fails; unverified traffic
+means App Check, verified-but-failing means `firestore.rules`. Unenforcing is
+one click if a build turns out to be wrong.
 
 Debug builds print an App Check debug token to the console on first launch.
 Register it under **App Check → Manage debug tokens**, once per machine, or the
