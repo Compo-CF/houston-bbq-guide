@@ -82,3 +82,47 @@ Structured hours / phone / pitmaster fields are NOT in Reid's WordPress REST
 API (they're JetEngine meta). The pipeline scrapes addresses from each detail
 page's map embed. For richer data, ask Reid for a JetEngine meta export and
 extend `pipeline/build_data.py`.
+
+## Suggested joints (Firestore) — SETUP NOT DONE YET
+
+The Guide tab has a "Know one we've missed?" card that opens a form. It writes
+to a Firestore `submissions` collection with `status: "pending"`; approved tips
+become real entries the normal way, through `pipeline/build_data.py` and
+`docs/Joints.json`.
+
+**The app builds and runs fine without any of this.** `FirebaseApp.configure()`
+is only called when `GoogleService-Info.plist` is actually in the bundle, and
+the form reports itself unavailable rather than crashing. So build 13 can ship
+before Firebase exists.
+
+To turn it on — all of it is yours, none can be scripted from here:
+
+1. **Firebase project.** Reuse an existing one or make a new one. Add an iOS
+   app with bundle `com.compofelice.HoustonBBQGuide`.
+2. **Download `GoogleService-Info.plist`** and drop it in `HoustonBBQGuide/`,
+   next to `Info.plist`. XcodeGen picks it up as a resource automatically — no
+   `project.yml` change needed. It is not a secret (the keys in it are
+   bundle-restricted), so committing it is normal practice for iOS.
+3. **Publish the rules** in `firestore.rules`. They allow an anonymous client
+   to add one well-formed tip and nothing else — no reads, no edits, no
+   deletes. Without them Firestore's defaults either reject everything or, in
+   test mode, let the whole internet read your queue.
+   ```
+   firebase deploy --only firestore:rules
+   ```
+4. **Turn on App Check** (DeviceCheck / App Attest) for the iOS app. The rules
+   stop malformed and oversized writes, but they cannot tell the real app from
+   a script holding the same public config.
+
+### Approving one
+
+There is no admin screen yet, and none is needed to start: the Firebase console
+bypasses the rules, so the `submissions` collection is readable there. Triage by
+flipping `status` to `approved` or `rejected`, then add the joint through the
+normal pipeline. If the queue gets busy enough to be annoying, that is the
+moment to build a moderation view — not before.
+
+The form already refuses obvious duplicates: it normalises the typed name
+(dropping "BBQ", "Barbecue", "Co", "The" and the like) and warns when it matches
+one of the joints already in the guide, so "Truth Barbeque" does not arrive as a
+new tip for Truth BBQ.

@@ -1,0 +1,51 @@
+rules_version = '2';
+
+// Houston BBQ Guide - suggested joints.
+//
+// The app has no sign-in, so these rules are the only thing between the
+// submissions collection and the open internet. The stance is narrow on
+// purpose: an anonymous client may ADD one well-formed tip and may never read,
+// edit or delete anything - not even its own.
+//
+// Reading the queue is an admin job. The Firebase console bypasses rules, so
+// Reid can triage there without any client ever being granted read access.
+//
+// Still worth doing: turn on App Check (DeviceCheck/App Attest) for the iOS
+// app. These rules stop malformed and oversized writes, but they cannot tell
+// the app apart from a script holding the same public config.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /submissions/{submissionId} {
+      allow create: if isWellFormed(request.resource.data);
+      allow read, update, delete: if false;
+    }
+
+    // Everything else is closed.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+
+  function isWellFormed(d) {
+    return d.keys().hasOnly([
+             'name', 'area', 'address', 'link', 'note',
+             'submitterName', 'submitterEmail',
+             'status', 'appVersion', 'submittedAt'
+           ])
+        && d.keys().hasAll(['name', 'note', 'status', 'submittedAt'])
+
+        // A client cannot submit something pre-approved.
+        && d.status == 'pending'
+
+        && d.name is string && d.name.size() >= 2 && d.name.size() <= 80
+        && d.note is string && d.note.size() >= 10 && d.note.size() <= 600
+        && d.area is string && d.area.size() <= 60
+        && d.address is string && d.address.size() <= 160
+        && d.link is string && d.link.size() <= 300
+        && d.submitterName is string && d.submitterName.size() <= 120
+        && d.submitterEmail is string && d.submitterEmail.size() <= 120
+        && d.appVersion is string && d.appVersion.size() <= 40
+        && d.submittedAt is number;
+  }
+}

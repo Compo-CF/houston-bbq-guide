@@ -19,10 +19,23 @@ settings:
     IPHONEOS_DEPLOYMENT_TARGET: "17.0"
     ALWAYS_SEARCH_USER_PATHS: NO
 
+# Firestore receives suggested joints. Nothing else in the app talks to a
+# network service it owns - the guide data itself is a static JSON file on
+# GitHub Pages - so this is the only dependency here.
+packages:
+  Firebase:
+    url: https://github.com/firebase/firebase-ios-sdk
+    from: "11.0.0"
+
 targets:
   HoustonBBQGuide:
     type: application
     platform: iOS
+    dependencies:
+      - package: Firebase
+        product: FirebaseCore
+      - package: Firebase
+        product: FirebaseFirestore
     sources:
       - path: HoustonBBQGuide
         excludes:

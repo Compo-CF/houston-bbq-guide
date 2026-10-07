@@ -4,6 +4,7 @@ import SwiftUI
 /// all with live counts derived from the current dataset.
 struct GuideTabView: View {
     @Environment(JointStore.self) private var store
+    @State private var showSubmit = false
     @State private var selected: Joint?
 
     private let styleBlurbs: [(String, String)] = [
@@ -27,6 +28,7 @@ struct GuideTabView: View {
                     countCard(title: "The Woods", symbol: "tree.fill",
                               taxonomy: "primary-wood", field: \.primaryWood)
                     essentialCard
+                    suggestCard
                 }
                 .padding()
             }
@@ -35,6 +37,39 @@ struct GuideTabView: View {
             .toolbar(.hidden, for: .navigationBar)
         }
         .sheet(item: $selected) { JointDetailView(joint: $0) }
+        .sheet(isPresented: $showSubmit) { SubmitJointSheet() }
+    }
+
+    /// The guide is curated, so the ask is for a tip rather than an entry -
+    /// the copy promises a read, not a listing.
+    private var suggestCard: some View {
+        Button { showSubmit = true } label: {
+            HStack(spacing: 14) {
+                Image(systemName: "mappin.and.ellipse")
+                    .font(.system(size: 20))
+                    .foregroundStyle(Theme.ember)
+                    .frame(width: 34)
+                VStack(alignment: .leading, spacing: 3) {
+                    Text("Know one we've missed?")
+                        .font(Theme.serif(17, .semibold))
+                        .foregroundStyle(Theme.ink)
+                    Text("Suggest a joint. Every tip gets read before anything joins the guide.")
+                        .font(.system(size: 13))
+                        .multilineTextAlignment(.leading)
+                        .foregroundStyle(Theme.muted)
+                }
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 13, weight: .semibold))
+                    .foregroundStyle(Theme.muted2)
+            }
+            .padding(14)
+            .background(Theme.surface, in: RoundedRectangle(cornerRadius: 14))
+            .overlay(
+                RoundedRectangle(cornerRadius: 14).stroke(Theme.line, lineWidth: 1)
+            )
+        }
+        .buttonStyle(.plain)
     }
 
     private var header: some View {

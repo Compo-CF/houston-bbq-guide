@@ -2,6 +2,12 @@ import SwiftUI
 
 @main
 struct HoustonBBQGuideApp: App {
+    init() {
+        // No-op unless GoogleService-Info.plist is in the bundle, so the app
+        // still launches on builds that have no Firebase set up.
+        SubmissionStore.configureIfPossible()
+    }
+
     @State private var store = JointStore()
     @State private var passport = PassportStore()
     @State private var location = LocationManager()
