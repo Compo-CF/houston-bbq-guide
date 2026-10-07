@@ -1,19 +1,27 @@
 #!/usr/bin/env python3
-"""Generate the 1024x1024 App Store icon for Houston BBQ Guide.
+"""Generate the app icon and the splash mark for Houston BBQ Guide.
 
 Built from the official Houston BBQ Guide steer logo (pipeline/assets/): isolates
 the geometric horned head, recolors it into the app's ember/amber palette, and
 composites it onto the smoked-dark background so it reads as a barbecue app while
 staying true to the brand mark. Opaque, no alpha — App Store requirement.
+
+Emits two things from that one isolated head, so the icon and the splash can
+never drift apart:
+
+  AppIcon.appiconset/icon-1024.png   opaque, on the smoked-dark ground
+  SteerMark.imageset/steer-mark.png  transparent, for SplashView to animate
 """
 from PIL import Image
-import math, os
+import json, math, os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 SRC = os.path.join(HERE, "assets", "houston-bbq-guide-logo.png")
-OUT = os.path.join(ROOT, "HoustonBBQGuide", "Assets.xcassets",
-                   "AppIcon.appiconset", "icon-1024.png")
+ASSETS = os.path.join(ROOT, "HoustonBBQGuide", "Assets.xcassets")
+OUT = os.path.join(ASSETS, "AppIcon.appiconset", "icon-1024.png")
+MARK_DIR = os.path.join(ASSETS, "SteerMark.imageset")
+MARK = os.path.join(MARK_DIR, "steer-mark.png")
 S = 1024
 
 logo = Image.open(SRC).convert("RGBA")
@@ -61,6 +69,27 @@ for y in range(S):
     for x in range(S):
         bp[x, y] = (r, g, b)
 canvas = bg.convert("RGBA")
+
+# 4b. the same recolored head, transparent, for the splash to animate. Written
+# before the icon composite so it is the head and nothing else - SplashView
+# lays it over the app's own background rather than a baked-in one.
+os.makedirs(MARK_DIR, exist_ok=True)
+mark_scale = 1024 / max(head.size)
+mark = head.resize(
+    (int(head.size[0] * mark_scale), int(head.size[1] * mark_scale)),
+    Image.LANCZOS,
+)
+mark.save(MARK, "PNG")
+with open(os.path.join(MARK_DIR, "Contents.json"), "w") as f:
+    json.dump(
+        {
+            "images": [{"filename": "steer-mark.png", "idiom": "universal"}],
+            "info": {"author": "xcode", "version": 1},
+        },
+        f,
+        indent=2,
+    )
+print("wrote", MARK, mark.size)
 
 # 5. place the head centered, ~74% of the canvas by its larger side.
 scale = (S * 0.74) / max(head.size)
