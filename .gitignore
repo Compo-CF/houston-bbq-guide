@@ -12,3 +12,8 @@ __pycache__/
 
 # generated Info.plist (xcodegen writes it)
 HoustonBBQGuide/Info.plist
+
+# Firebase CLI
+.firebase/
+firebase-debug.log
+firestore-debug.log
