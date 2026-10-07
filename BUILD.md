@@ -133,9 +133,12 @@ token.**
 Enforcement is deliberately still OFF, and turning it on early is the one way
 to break this:
 
-1. Register the iOS app under **App Check** in the console with the **App
-   Attest** provider. This also enables the App Check API.
-2. **Ship a build with App Check in it** (anything from this commit onward).
+1. ~~Register the iOS app under **App Check** with the **App Attest**
+   provider.~~ **DONE 2026-10-07** — App Attest, Team ID `7H5T5AR2X5`, token
+   TTL 1 hour. App Attest rather than DeviceCheck because DeviceCheck wants a
+   `.p8` key generated in the Apple Developer portal and App Attest covers
+   every device that can run an iOS 17 app.
+2. **Ship a build with App Check in it** (anything from commit 9520ac6 on).
 3. Watch the App Check metrics until verified requests show up — the console
    reports verified vs unverified traffic while unenforced.
 4. **Only then enforce Firestore.** Enforcing before a build is out in the
