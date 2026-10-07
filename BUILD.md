@@ -120,18 +120,35 @@ Redeploy rules with:
 firebase deploy --only firestore:rules --project houston-bbq-guide
 ```
 
-### Still outstanding
+### App Check — app side done, console side and enforcement outstanding
 
-1. **`GoogleService-Info.plist` is NOT committed.** It sits in
-   `HoustonBBQGuide/` locally and is gitignored. This repo is public, the
-   submissions path is unauthenticated, and App Check is off — that trio is
-   the one case where the key in it is worth something to a stranger (worst
-   case: a spammed queue). The Mac builds from a clone, so until this is
-   committed the plist has to be copied over by hand for the form to work.
-2. **App Check is off.** Turn on DeviceCheck / App Attest for the iOS app. The
-   rules stop malformed and oversized writes; they cannot tell the real app
-   from a script holding the same public config. Do this before committing the
-   plist.
+`GoogleService-Info.plist` IS committed, so a fresh clone builds the working
+form with no manual copying.
+
+The app now sets an App Check provider factory before `FirebaseApp.configure()`
+— App Attest on device, the debug provider under `DEBUG`. **Order matters: the
+factory must be set before configure(), or the first request leaves without a
+token.**
+
+Enforcement is deliberately still OFF, and turning it on early is the one way
+to break this:
+
+1. Register the iOS app under **App Check** in the console with the **App
+   Attest** provider. This also enables the App Check API.
+2. **Ship a build with App Check in it** (anything from this commit onward).
+3. Watch the App Check metrics until verified requests show up — the console
+   reports verified vs unverified traffic while unenforced.
+4. **Only then enforce Firestore.** Enforcing before a build is out in the
+   wild rejects the real app along with the bots, and the form silently stops
+   working for everyone.
+
+Until step 4, the public config in the committed plist is worth something to a
+stranger: the rules cap what a write may contain but cannot say who is writing,
+so the exposure is a spammed queue. That window closes at enforcement.
+
+Debug builds print an App Check debug token to the console on first launch.
+Register it under **App Check → Manage debug tokens**, once per machine, or the
+simulator cannot submit.
 
 ### Approving one
 

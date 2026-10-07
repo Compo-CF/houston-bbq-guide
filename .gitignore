@@ -17,8 +17,3 @@ HoustonBBQGuide/Info.plist
 .firebase/
 firebase-debug.log
 firestore-debug.log
-
-# Firebase iOS config. NOT committed yet - this repo is public and the
-# submissions write path is unauthenticated with App Check still off.
-# See BUILD.md; flip this once App Check is on.
-HoustonBBQGuide/GoogleService-Info.plist

@@ -1,4 +1,5 @@
 import Foundation
+import FirebaseAppCheck
 import FirebaseCore
 import FirebaseFirestore
 
@@ -29,6 +30,9 @@ final class SubmissionStore {
     /// Call once at launch, before anything touches Firestore.
     static func configureIfPossible() {
         guard isAvailable, FirebaseApp.app() == nil else { return }
+        // The factory has to be set BEFORE configure(), or the first request
+        // goes out without a token.
+        AppCheck.setAppCheckProviderFactory(AppCheckFactory())
         FirebaseApp.configure()
     }
 
@@ -65,5 +69,27 @@ final class SubmissionStore {
 
     func reset() {
         state = .idle
+    }
+}
+
+/// Supplies App Check tokens, which let Firestore tell this app apart from a
+/// script holding the same public config.
+///
+/// The rules cap what a write may contain; they cannot say who is writing. The
+/// app's config is in a public repo, so App Check is the half that stops a
+/// stranger filling the queue.
+///
+/// App Attest needs real hardware and a real App Store identity, so the
+/// simulator and debug builds use the debug provider instead - it prints a
+/// token to the console on first run that has to be registered under
+/// App Check -> Manage debug tokens, once per machine.
+private final class AppCheckFactory: NSObject, AppCheckProviderFactory {
+    func createProvider(with app: FirebaseApp) -> AppCheckProvider? {
+        #if DEBUG
+        return AppCheckDebugProvider(app: app)
+        #else
+        // Deployment target is iOS 17, so App Attest is always available.
+        return AppAttestProvider(app: app)
+        #endif
     }
 }
