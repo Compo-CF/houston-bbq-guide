@@ -83,7 +83,7 @@ API (they're JetEngine meta). The pipeline scrapes addresses from each detail
 page's map embed. For richer data, ask Reid for a JetEngine meta export and
 extend `pipeline/build_data.py`.
 
-## Suggested joints (Firestore) — SETUP NOT DONE YET
+## Suggested joints (Firestore) — LIVE as of 2026-10-07
 
 The Guide tab has a "Know one we've missed?" card that opens a form. It writes
 to a Firestore `submissions` collection with `status: "pending"`; approved tips
@@ -95,24 +95,43 @@ is only called when `GoogleService-Info.plist` is actually in the bundle, and
 the form reports itself unavailable rather than crashing. So build 13 can ship
 before Firebase exists.
 
-To turn it on — all of it is yours, none can be scripted from here:
+### What exists
 
-1. **Firebase project.** Reuse an existing one or make a new one. Add an iOS
-   app with bundle `com.compofelice.HoustonBBQGuide`.
-2. **Download `GoogleService-Info.plist`** and drop it in `HoustonBBQGuide/`,
-   next to `Info.plist`. XcodeGen picks it up as a resource automatically — no
-   `project.yml` change needed. It is not a secret (the keys in it are
-   bundle-restricted), so committing it is normal practice for iOS.
-3. **Publish the rules** in `firestore.rules`. They allow an anonymous client
-   to add one well-formed tip and nothing else — no reads, no edits, no
-   deletes. Without them Firestore's defaults either reject everything or, in
-   test mode, let the whole internet read your queue.
-   ```
-   firebase deploy --only firestore:rules
-   ```
-4. **Turn on App Check** (DeviceCheck / App Attest) for the iOS app. The rules
-   stop malformed and oversized writes, but they cannot tell the real app from
-   a script holding the same public config.
+| | |
+|---|---|
+| Project | `houston-bbq-guide` |
+| iOS app | `1:468143354893:ios:4a5f193c7489b2f242d144` |
+| Bundle | `com.compofelice.HoustonBBQGuide` |
+| Firestore | `(default)`, `nam5` |
+| Rules | `firestore.rules`, deployed |
+
+Console: https://console.firebase.google.com/project/houston-bbq-guide
+
+The rules were checked against the live database, not just compiled. A
+well-formed pending tip is accepted; a client-set `status: "approved"`, a
+5000-character note, an undeclared extra field, a one-character name, and any
+attempt to read the queue back are all refused. Re-run that check after
+touching `firestore.rules` — rules take a few seconds to propagate after a
+deploy, so an immediate test gives a false failure.
+
+Redeploy rules with:
+
+```
+firebase deploy --only firestore:rules --project houston-bbq-guide
+```
+
+### Still outstanding
+
+1. **`GoogleService-Info.plist` is NOT committed.** It sits in
+   `HoustonBBQGuide/` locally and is gitignored. This repo is public, the
+   submissions path is unauthenticated, and App Check is off — that trio is
+   the one case where the key in it is worth something to a stranger (worst
+   case: a spammed queue). The Mac builds from a clone, so until this is
+   committed the plist has to be copied over by hand for the form to work.
+2. **App Check is off.** Turn on DeviceCheck / App Attest for the iOS app. The
+   rules stop malformed and oversized writes; they cannot tell the real app
+   from a script holding the same public config. Do this before committing the
+   plist.
 
 ### Approving one
 
