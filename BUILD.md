@@ -164,3 +164,45 @@ The form already refuses obvious duplicates: it normalises the typed name
 (dropping "BBQ", "Barbecue", "Co", "The" and the like) and warns when it matches
 one of the joints already in the guide, so "Truth Barbeque" does not arrive as a
 new tip for Truth BBQ.
+
+## App Privacy label — must change before App Store submission
+
+The v1 draft answered **Data Not Collected**. That was true before the suggest
+form existed and is false from build 23 on. It has to be corrected before
+review; it does not affect TestFlight.
+
+App Store Connect -> the app -> **App Privacy** -> Edit. The API does not
+expose this (`appDataUsages` 404s), so it is a console job.
+
+Exactly two things leave the device: the `Joints.json` GET, which sends
+nothing, and the Firestore write. The write carries `name, area, address,
+link, note, submitterName, submitterEmail, status, appVersion, submittedAt`
+and nothing else — in particular **location never leaves the device**, it is
+only used on-device to sort joints by distance, so it is not declarable.
+
+Declare three, all **collected**, all **linked to the user's identity**, all
+for **App Functionality**, none **used for tracking**:
+
+| Category | Type | Why |
+|---|---|---|
+| Contact Info | Name | `submitterName` |
+| Contact Info | Email Address | `submitterEmail` |
+| User Content | Other User Content | the tip itself — joint name, area, address, link, note |
+
+"Linked to identity" because the email arrives in the same document as
+everything else, so the whole record is attributable to a person.
+
+There is no analytics, ads or crash-reporting SDK, so nothing else qualifies.
+Firebase here is Firestore + App Check only — no Analytics, no Crashlytics.
+
+### The judgement call
+
+Apple exempts data collected in **optional feedback forms** when collection is
+optional and infrequent, the user affirmatively chooses to provide it each
+time, it is prominently requested, and it is not used for tracking,
+advertising or third-party sharing. The name and email fields plausibly
+qualify — they are marked Optional and exist only so Reid can follow up.
+
+Declared anyway. Over-declaring costs nothing; under-declaring risks a
+rejection and reads badly if anyone compares the label to what the form asks
+for. Change it only deliberately.
