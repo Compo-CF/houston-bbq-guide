@@ -148,38 +148,50 @@ for i, rec in enumerate(joints_raw, 1):
 # and go — each needs only `name`; everything else is optional.
 EVENTS = [
     {
-        "name": "Houston BBQ Throwdown 2026",
-        "tagline": "Presented by the Houston BBQ Guide",
-        "kind": "Competition",
-        "date": "Sunday, September 20, 2026",
-        "time": "1–4 PM",
-        "venue": "Saint Arnold Brewing Company",
-        "address": "2000 Lyons Ave, Houston, TX 77020",
-        "ticketURL": "https://houbbqthrowdown2026.eventbrite.com/?aff=guide",
-        "about": "The Houston BBQ Throwdown pits the city's best against each "
-                 "other for an afternoon of live-fire cooking and blind judging "
-                 "at Saint Arnold Brewing Company. Taste from every pit, then see "
-                 "who takes home Judge's Choice and People's Choice.",
+        "name": "Houston BBQ Festival 2027",
+        "tagline": "Save the date",
+        "kind": "Festival",
+        "date": "Sunday, April 4, 2027",
+        "time": "1-4 PM, VIP entry at 12 PM",
+        "venue": "Humble Civic Center Arena Complex",
+        "address": "8233 Will Clayton Pkwy, Humble, TX 77338",
+        # No 2027 ticket link exists yet - houbbq.com still points at the 2026
+        # Eventbrite. Drop it in here when tickets go on sale; the app picks it
+        # up on next launch, no release needed.
+        "ticketURL": None,
+        "about": "The Houston BBQ Festival brings the city's pits together for "
+                 "an afternoon of live-fire cooking at the Humble Civic Center. "
+                 "More pitmasters to be announced.",
+        # Taken from houbbq.com/festivals/hou-2027, which still heads the list
+        # "COMING SOON!" - treat it as provisional and re-check before the
+        # festival gets close.
         "participants": [
-            {"name": "Charm Taphouse & BBQ", "note": None},
-            {"name": "Chavo's BBQ", "note": None},
-            {"name": "Chicano BBQ", "note": None},
+            {"name": "1701 Barbecue", "note": None},
+            {"name": "3rd Coast BBQ", "note": None},
+            {"name": "Bar-A-BBQ", "note": None},
+            {"name": "Black Gold Barbeque", "note": None},
+            {"name": "Blood Bros BBQ", "note": None},
             {"name": "Daddy Duncan's BBQ", "note": None},
-            {"name": "Deckle & Hide", "note": None},
             {"name": "Eastbound Barbecue", "note": None},
             {"name": "Fire Craft BBQ", "note": None},
+            {"name": "Harlem Rd Texas BBQ", "note": None},
+            {"name": "Henderson & Kane", "note": None},
+            {"name": "Hongdae 33 KBBQ", "note": None},
+            {"name": "J-Bar-M Barbecue", "note": None},
             {"name": "Koop's BBQ Kitchen", "note": None},
-            {"name": "La Cruda Brand BBQ", "note": "Defending Judge's Choice"},
-            {"name": "Space City BBQ", "note": "Defending People's Choice"},
+            {"name": "La Cruda Brand BBQ", "note": None},
+            {"name": "Pinkerton's Barbecue", "note": None},
+            {"name": "Ray's BBQ Shack", "note": None},
+            {"name": "Redbird BBQ", "note": None},
+            {"name": "Roegels Barbecue Co.", "note": None},
+            {"name": "Rosemeyer Bar-B-Q", "note": None},
+            {"name": "Southern Q BBQ", "note": None},
+            {"name": "Space City BBQ", "note": None},
+            {"name": "Tejas Chocolate & BBQ", "note": None},
             {"name": "The Pit Room", "note": None},
-            {"name": "The Station at Smokey Oaks", "note": None},
+            {"name": "Tin Roof BBQ", "note": None},
+            {"name": "Truth Barbeque", "note": None},
             {"name": "Weaver's BBQ", "note": None},
-        ],
-        "judges": [
-            {"name": "Will Buckman", "affiliation": "CorkScrew BBQ"},
-            {"name": "Wayne Mueller", "affiliation": "Louie Mueller Barbecue"},
-            {"name": "Bao Ong", "affiliation": "Houston Chronicle"},
-            {"name": "Jess Timmons", "affiliation": "Chef & restaurant consultant"},
         ],
     },
 ]

@@ -2300,34 +2300,38 @@
   ],
   "events": [
     {
-      "name": "Houston BBQ Throwdown 2026",
-      "tagline": "Presented by the Houston BBQ Guide",
-      "kind": "Competition",
-      "date": "Sunday, September 20, 2026",
-      "time": "1–4 PM",
-      "venue": "Saint Arnold Brewing Company",
-      "address": "2000 Lyons Ave, Houston, TX 77020",
-      "ticketURL": "https://houbbqthrowdown2026.eventbrite.com/?aff=guide",
-      "about": "The Houston BBQ Throwdown pits the city's best against each other for an afternoon of live-fire cooking and blind judging at Saint Arnold Brewing Company. Taste from every pit, then see who takes home Judge's Choice and People's Choice.",
+      "name": "Houston BBQ Festival 2027",
+      "tagline": "Save the date",
+      "kind": "Festival",
+      "date": "Sunday, April 4, 2027",
+      "time": "1-4 PM, VIP entry at 12 PM",
+      "venue": "Humble Civic Center Arena Complex",
+      "address": "8233 Will Clayton Pkwy, Humble, TX 77338",
+      "ticketURL": null,
+      "about": "The Houston BBQ Festival brings the city's pits together for an afternoon of live-fire cooking at the Humble Civic Center. More pitmasters to be announced.",
       "participants": [
         {
-          "name": "Charm Taphouse & BBQ",
+          "name": "1701 Barbecue",
           "note": null
         },
         {
-          "name": "Chavo's BBQ",
+          "name": "3rd Coast BBQ",
           "note": null
         },
         {
-          "name": "Chicano BBQ",
+          "name": "Bar-A-BBQ",
+          "note": null
+        },
+        {
+          "name": "Black Gold Barbeque",
+          "note": null
+        },
+        {
+          "name": "Blood Bros BBQ",
           "note": null
         },
         {
           "name": "Daddy Duncan's BBQ",
-          "note": null
-        },
-        {
-          "name": "Deckle & Hide",
           "note": null
         },
         {
@@ -2339,46 +2343,76 @@
           "note": null
         },
         {
+          "name": "Harlem Rd Texas BBQ",
+          "note": null
+        },
+        {
+          "name": "Henderson & Kane",
+          "note": null
+        },
+        {
+          "name": "Hongdae 33 KBBQ",
+          "note": null
+        },
+        {
+          "name": "J-Bar-M Barbecue",
+          "note": null
+        },
+        {
           "name": "Koop's BBQ Kitchen",
           "note": null
         },
         {
           "name": "La Cruda Brand BBQ",
-          "note": "Defending Judge's Choice"
+          "note": null
+        },
+        {
+          "name": "Pinkerton's Barbecue",
+          "note": null
+        },
+        {
+          "name": "Ray's BBQ Shack",
+          "note": null
+        },
+        {
+          "name": "Redbird BBQ",
+          "note": null
+        },
+        {
+          "name": "Roegels Barbecue Co.",
+          "note": null
+        },
+        {
+          "name": "Rosemeyer Bar-B-Q",
+          "note": null
+        },
+        {
+          "name": "Southern Q BBQ",
+          "note": null
         },
         {
           "name": "Space City BBQ",
-          "note": "Defending People's Choice"
+          "note": null
+        },
+        {
+          "name": "Tejas Chocolate & BBQ",
+          "note": null
         },
         {
           "name": "The Pit Room",
           "note": null
         },
         {
-          "name": "The Station at Smokey Oaks",
+          "name": "Tin Roof BBQ",
+          "note": null
+        },
+        {
+          "name": "Truth Barbeque",
           "note": null
         },
         {
           "name": "Weaver's BBQ",
           "note": null
-        }
-      ],
-      "judges": [
-        {
-          "name": "Will Buckman",
-          "affiliation": "CorkScrew BBQ"
-        },
-        {
-          "name": "Wayne Mueller",
-          "affiliation": "Louie Mueller Barbecue"
-        },
-        {
-          "name": "Bao Ong",
-          "affiliation": "Houston Chronicle"
-        },
-        {
-          "name": "Jess Timmons",
-          "affiliation": "Chef & restaurant consultant"
         }
       ]
     }
