@@ -69,3 +69,6 @@ targets:
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
         CODE_SIGN_STYLE: Automatic
         DEVELOPMENT_TEAM: 7H5T5AR2X5
+        # Empty on the Mac (automatic signing unchanged); scripts/ci/testflight-ci.sh passes
+        # HOUBBQ_APP_PROFILE="Houston BBQ AppStore CI" for manual signing on the GitHub runner.
+        PROVISIONING_PROFILE_SPECIFIER: "$(HOUBBQ_APP_PROFILE)"
