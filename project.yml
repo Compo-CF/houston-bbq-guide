@@ -59,6 +59,15 @@ targets:
         UIRequiredDeviceCapabilities:
           - armv7
         ITSAppUsesNonExemptEncryption: false
+    # App Attest backs Firebase App Check (enforced on Firestore), so the suggest-a-joint
+    # form needs it on every signed Release build. TestFlight/App Store builds use the
+    # production environment regardless; Debug builds use the App Check debug provider.
+    # The App ID must have the "App Attest" capability ticked in the developer portal
+    # (the ASC API can't set it), then re-run ~/appstoreconnect/ci_signing.py houston-bbq-guide.
+    entitlements:
+      path: HoustonBBQGuide/HoustonBBQGuide.entitlements
+      properties:
+        com.apple.developer.devicecheck.appattest-environment: production
     settings:
       base:
         PRODUCT_NAME: HoustonBBQGuide
